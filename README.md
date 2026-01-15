@@ -2,7 +2,7 @@
 
 ## Showcasing my experience in Frontend Development
 
-A skilled builder focused on creating user-friendly interfaces for decentralized applications (dApps).
+A skilled builder focused on creating user-friendly interfaces for decentralized platforms.
 
 ## Highlights
 - UI Craftsmanship
