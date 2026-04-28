@@ -1,3 +1,25 @@
+<table align="right">
+<tr><td valign="top">
+
+<a href="https://react.dev" title="React"><img alt="React" height="32" src="https://cdn.simpleicons.org/react/61DAFB"/></a>
+&nbsp;
+<a href="https://nextjs.org" title="Next.js"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/nextdotjs/ffffff"/><img alt="Next.js" height="32" src="https://cdn.simpleicons.org/nextdotjs/000000"/></picture></a>
+&nbsp;
+<a href="https://www.typescriptlang.org/" title="TypeScript"><img alt="TypeScript" height="32" src="https://cdn.simpleicons.org/typescript/3178C6"/></a>
+&nbsp;
+<a href="https://tailwindcss.com" title="Tailwind CSS"><img alt="Tailwind" height="32" src="https://cdn.simpleicons.org/tailwindcss/06B6D4"/></a>
+&nbsp;
+<a href="https://ethereum.org" title="Ethereum"><img alt="Ethereum" height="32" src="https://cdn.simpleicons.org/ethereum/8A92B2"/></a>
+&nbsp;
+<a href="https://graphql.org" title="GraphQL"><img alt="GraphQL" height="32" src="https://cdn.simpleicons.org/graphql/E10098"/></a>
+&nbsp;
+<a href="https://thegraph.com" title="The Graph"><img alt="The Graph" height="32" src="https://cdn.simpleicons.org/thegraph/6747ED"/></a>
+&nbsp;
+<a href="https://vercel.com" title="Vercel"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/vercel/ffffff"/><img alt="Vercel" height="32" src="https://cdn.simpleicons.org/vercel/000000"/></picture></a>
+
+</td></tr>
+</table>
+
 # tenderdeve
 
 _DeFi frontend engineer — trading UIs, liquidity dashboards, on-chain data viz._
@@ -26,9 +48,7 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 
 <sub>◐ building &nbsp; · &nbsp; ● shipped</sub>
 
-## stack
-
-`React` &nbsp; `Next.js` &nbsp; `TypeScript` &nbsp; `Tailwind` &nbsp; `ethers.js` &nbsp; `viem` &nbsp; `wagmi` &nbsp; `GraphQL` &nbsp; `The Graph` &nbsp; `Apollo` &nbsp; `React Query` &nbsp; `Vercel`
+<sub>also using: `ethers.js` · `viem` · `wagmi` · `Apollo` · `React Query`</sub>
 
 ## ecosystem
 
