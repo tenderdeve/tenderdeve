@@ -21,7 +21,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 
 <p align="center"><strong>· · ·&nbsp;&nbsp;&nbsp;SKILLS&nbsp;&nbsp;&nbsp;· · ·</strong></p>
 
-<table width="100%">
+<table align="center" width="100%">
 <tr>
 <td align="center" width="14%"><a href="https://react.dev"><img height="40" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/></a><br/><sub>React</sub></td>
 <td align="center" width="14%"><a href="https://nextjs.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"/><img height="40" alt="Next.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"/></picture></a><br/><sub>Next.js</sub></td>
@@ -65,8 +65,8 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <p align="center"><strong>· · ·&nbsp;&nbsp;&nbsp;OPEN SOURCE CONTRIBUTIONS&nbsp;&nbsp;&nbsp;· · ·</strong></p>
 
 <!-- START:ecosystem -->
-<table width="100%">
-<tr><td valign="top" width="50%">
+<table align="center" width="100%">
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/daaoai.png?size=40" width="20" height="20" align="top" alt="daaoai" /> <b><a href="https://github.com/daaoai/dex">daaoai/dex</a></b> &middot; 5 PRs &middot; <a href="https://github.com/daaoai/dex/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -79,7 +79,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/NomicFoundation.png?size=40" width="20" height="20" align="top" alt="NomicFoundation" /> <b><a href="https://github.com/NomicFoundation/hardhat">NomicFoundation/hardhat</a></b> &middot; 2 PRs &middot; <a href="https://github.com/NomicFoundation/hardhat/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -90,7 +90,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </details>
 
 </td></tr>
-<tr><td valign="top" width="50%">
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/family.png?size=40" width="20" height="20" align="top" alt="family" /> <b><a href="https://github.com/family/connectkit">family/connectkit</a></b> &middot; 2 PRs &middot; <a href="https://github.com/family/connectkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -100,7 +100,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/near.png?size=40" width="20" height="20" align="top" alt="near" /> <b><a href="https://github.com/near/near-sdk-js">near/near-sdk-js</a></b> &middot; 2 PRs &middot; <a href="https://github.com/near/near-sdk-js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -111,7 +111,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </details>
 
 </td></tr>
-<tr><td valign="top" width="50%">
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/wevm.png?size=40" width="20" height="20" align="top" alt="wevm" /> <b><a href="https://github.com/wevm/viem">wevm/viem</a></b> &middot; 2 PRs &middot; <a href="https://github.com/wevm/viem/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -121,7 +121,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/MetaMask.png?size=40" width="20" height="20" align="top" alt="MetaMask" /> <b><a href="https://github.com/MetaMask/metamask-extension">MetaMask/metamask-extension</a></b> &middot; 1 PR &middot; <a href="https://github.com/MetaMask/metamask-extension/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -131,7 +131,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </details>
 
 </td></tr>
-<tr><td valign="top" width="50%">
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/OffchainLabs.png?size=40" width="20" height="20" align="top" alt="OffchainLabs" /> <b><a href="https://github.com/OffchainLabs/nitro">OffchainLabs/nitro</a></b> &middot; 1 PR &middot; <a href="https://github.com/OffchainLabs/nitro/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -140,7 +140,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ensdomains.png?size=40" width="20" height="20" align="top" alt="ensdomains" /> <b><a href="https://github.com/ensdomains/ens-app-v3">ensdomains/ens-app-v3</a></b> &middot; 1 PR &middot; <a href="https://github.com/ensdomains/ens-app-v3/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -150,7 +150,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </details>
 
 </td></tr>
-<tr><td valign="top" width="50%">
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ethers-io.png?size=40" width="20" height="20" align="top" alt="ethers-io" /> <b><a href="https://github.com/ethers-io/ethers.js">ethers-io/ethers.js</a></b> &middot; 1 PR &middot; <a href="https://github.com/ethers-io/ethers.js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -159,7 +159,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ponder-sh.png?size=40" width="20" height="20" align="top" alt="ponder-sh" /> <b><a href="https://github.com/ponder-sh/ponder">ponder-sh/ponder</a></b> &middot; 1 PR &middot; <a href="https://github.com/ponder-sh/ponder/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -169,7 +169,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </details>
 
 </td></tr>
-<tr><td valign="top" width="50%">
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/remix-project-org.png?size=40" width="20" height="20" align="top" alt="remix-project-org" /> <b><a href="https://github.com/remix-project-org/remix-project">remix-project-org/remix-project</a></b> &middot; 1 PR &middot; <a href="https://github.com/remix-project-org/remix-project/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -178,7 +178,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/solana-foundation.png?size=40" width="20" height="20" align="top" alt="solana-foundation" /> <b><a href="https://github.com/solana-foundation/anchor">solana-foundation/anchor</a></b> &middot; 1 PR &middot; <a href="https://github.com/solana-foundation/anchor/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -196,16 +196,16 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <p align="center"><strong>· · ·&nbsp;&nbsp;&nbsp;PROJECTS&nbsp;&nbsp;&nbsp;· · ·</strong></p>
 
 <!-- START:projects -->
-<table width="100%">
+<table align="center" width="100%">
 <tr>
-<td valign="top" width="50%">
+<td valign="top" align="center" width="50%">
 
 <h3><a href="https://github.com/tenderdeve/defi-dashboard">defi-dashboard</a></h3>
 <sub>Real-time DeFi portfolio dashboard — token prices, LP positions, P&L tracking — Next.js + wagmi + TailwindCSS</sub><br/><br/>
 <sub><code>TypeScript</code>&nbsp;&nbsp;<code>JavaScript</code></sub>
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" align="center" width="50%">
 
 <h3><a href="https://github.com/tenderdeve/wallet-profiler">wallet-profiler</a></h3>
 <sub>On-chain wallet analytics platform</sub><br/><br/>

@@ -62,16 +62,16 @@ resolve_stack() {
     done < "$TMPDIR/repos_meta"
 
     # Wrap every 2 cards in a <tr> with two <td> cells (50% each).
-    echo "<table width=\"100%\">"
+    echo "<table align=\"center\" width=\"100%\">"
     i=0
     while [ "$i" -lt "${#cards[@]}" ]; do
       echo "<tr>"
-      printf '<td valign="top" width="50%%">\n\n%s\n\n</td>\n' "${cards[$i]}"
+      printf '<td valign="top" align="center" width="50%%">\n\n%s\n\n</td>\n' "${cards[$i]}"
       j=$((i + 1))
       if [ "$j" -lt "${#cards[@]}" ]; then
-        printf '<td valign="top" width="50%%">\n\n%s\n\n</td>\n' "${cards[$j]}"
+        printf '<td valign="top" align="center" width="50%%">\n\n%s\n\n</td>\n' "${cards[$j]}"
       else
-        echo '<td valign="top" width="50%"></td>'
+        echo '<td valign="top" align="center" width="50%"></td>'
       fi
       echo "</tr>"
       i=$((i + 2))
@@ -140,13 +140,13 @@ jq -r --rawfile pubs "$TMPDIR/public_repos" --arg user "$USER" '
           | map(
               "<tr>"
               + (
-                  map("<td valign=\"top\" width=\"50%\">\n\n" + . + "\n\n</td>")
-                  + (if length < 2 then ["<td valign=\"top\" width=\"50%\"></td>"] else [] end)
+                  map("<td valign=\"top\" align=\"center\" width=\"50%\">\n\n" + . + "\n\n</td>")
+                  + (if length < 2 then ["<td valign=\"top\" align=\"center\" width=\"50%\"></td>"] else [] end)
                   | join("")
                 )
               + "</tr>"
             )
-          | "<table width=\"100%\">\n" + join("\n") + "\n</table>"
+          | "<table align=\"center\" width=\"100%\">\n" + join("\n") + "\n</table>"
         end
       )' "$TMPDIR/contribs.json" > "$TMPDIR/ecosystem.md"
 
