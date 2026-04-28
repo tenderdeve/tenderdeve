@@ -117,48 +117,36 @@ jq -r --rawfile pubs "$TMPDIR/public_repos" --arg user "$USER" '
     | map(select(.repo as $r | $allowed | any(. == $r)))
     | map(
         (.repo | split("/")[0]) as $owner
-        | {
-            head: (
-              "<img src=\"https://github.com/" + $owner + ".png?size=40\" "
-              + "width=\"20\" height=\"20\" align=\"top\" "
-              + "alt=\"" + $owner + "\" />"
-              + " <b><a href=\"https://github.com/" + .repo + "\">"
-              + .repo
-              + "</a></b> &middot; "
-              + (.count | tostring) + " PR" + (if .count > 1 then "s" else "" end)
-              + " &middot; <a href=\"https://github.com/" + .repo + "/pulls?q=author%3A" + $user + "+is%3Apr\">all →</a>"
-            ),
-            body: (
-              "<ul>\n"
-              + (.prs | map("<li><a href=\"" + .url + "\"><code>#" + .num + "</code></a> — " + (.title | gsub("<"; "&lt;") | gsub(">"; "&gt;")) + "</li>") | join("\n"))
-              + "\n</ul>"
-            )
-          }
+        | "<details>\n"
+        + "<summary>"
+        + "<img src=\"https://github.com/" + $owner + ".png?size=40\" "
+          + "width=\"20\" height=\"20\" align=\"top\" "
+          + "alt=\"" + $owner + "\" />"
+        + " <b><a href=\"https://github.com/" + .repo + "\">"
+          + .repo
+        + "</a></b> &middot; "
+        + (.count | tostring) + " PR" + (if .count > 1 then "s" else "" end)
+        + " &middot; <a href=\"https://github.com/" + .repo + "/pulls?q=author%3A" + $user + "+is%3Apr\">all →</a>"
+        + "</summary>\n"
+        + "<ul>\n"
+        + (.prs | map("<li><a href=\"" + .url + "\"><code>#" + .num + "</code></a> — " + (.title | gsub("<"; "&lt;") | gsub(">"; "&gt;")) + "</li>") | join("\n"))
+        + "\n</ul>\n"
+        + "</details>"
       )
     | (
         if length == 0 then ""
         else
           [range(0; (length / 2 | ceil)) as $i | .[($i*2):($i*2+2)]]
           | map(
-              . as $pair
-              | (
-                  "<details>\n"
-                  + "<summary>\n"
-                  + "<table align=\"center\" width=\"100%\"><tr>\n"
-                  + ($pair | map("<td valign=\"top\" align=\"center\" width=\"50%\">" + .head + "</td>")
-                          + (if length < 2 then ["<td valign=\"top\" align=\"center\" width=\"50%\"></td>"] else [] end)
-                    | join("\n"))
-                  + "\n</tr></table>\n"
-                  + "</summary>\n"
-                  + "<table align=\"center\" width=\"100%\"><tr>\n"
-                  + ($pair | map("<td valign=\"top\" align=\"left\" width=\"50%\">\n\n" + .body + "\n\n</td>")
-                          + (if length < 2 then ["<td valign=\"top\" align=\"left\" width=\"50%\"></td>"] else [] end)
-                    | join("\n"))
-                  + "\n</tr></table>\n"
-                  + "</details>"
+              "<tr>"
+              + (
+                  map("<td valign=\"top\" align=\"center\" width=\"50%\">\n\n" + . + "\n\n</td>")
+                  + (if length < 2 then ["<td valign=\"top\" align=\"center\" width=\"50%\"></td>"] else [] end)
+                  | join("")
                 )
+              + "</tr>"
             )
-          | join("\n\n")
+          | "<table align=\"center\" width=\"100%\">\n" + join("\n") + "\n</table>"
         end
       )' "$TMPDIR/contribs.json" > "$TMPDIR/ecosystem.md"
 
