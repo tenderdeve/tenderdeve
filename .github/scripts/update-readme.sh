@@ -44,17 +44,39 @@ resolve_stack() {
 }
 
 {
-  echo "| repo | what it does | stack |"
-  echo "| --- | --- | --- |"
   if [ ! -s "$TMPDIR/repos_meta" ]; then
-    echo "| _No public projects yet._ | | |"
+    echo "_No public projects yet._"
   else
+    # Read each row into shell array entries: "name|url|desc|stack"
+    cards=()
     while IFS='|' read -r repo url desc; do
       stack=$(resolve_stack "$repo")
       [ -z "$stack" ] && stack="—"
       name="${repo#*/}"
-      echo "| **[$name]($url)** | $desc | $stack |"
+      # Render stack as inline <code> chips
+      stack_chips=$(echo "$stack" | sed -E 's/, /<\/code>\&nbsp;\&nbsp;<code>/g; s/^/<code>/; s/$/<\/code>/')
+      card="<h3><a href=\"$url\">$name</a></h3>
+<sub>$desc</sub><br/><br/>
+<sub>$stack_chips</sub>"
+      cards+=("$card")
     done < "$TMPDIR/repos_meta"
+
+    # Wrap every 2 cards in a <tr> with two <td> cells (50% each).
+    echo "<table width=\"100%\">"
+    i=0
+    while [ "$i" -lt "${#cards[@]}" ]; do
+      echo "<tr>"
+      printf '<td valign="top" width="50%%">\n\n%s\n\n</td>\n' "${cards[$i]}"
+      j=$((i + 1))
+      if [ "$j" -lt "${#cards[@]}" ]; then
+        printf '<td valign="top" width="50%%">\n\n%s\n\n</td>\n' "${cards[$j]}"
+      else
+        echo '<td valign="top" width="50%"></td>'
+      fi
+      echo "</tr>"
+      i=$((i + 2))
+    done
+    echo "</table>"
   fi
 } > "$TMPDIR/projects.md"
 
@@ -124,7 +146,7 @@ jq -r --rawfile pubs "$TMPDIR/public_repos" --arg user "$USER" '
                 )
               + "</tr>"
             )
-          | "<table>\n" + join("\n") + "\n</table>"
+          | "<table width=\"100%\">\n" + join("\n") + "\n</table>"
         end
       )' "$TMPDIR/contribs.json" > "$TMPDIR/ecosystem.md"
 

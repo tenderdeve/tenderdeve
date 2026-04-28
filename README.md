@@ -17,6 +17,8 @@ I care about performance, accessibility, and numbers traders trust with real mon
 
 </div>
 
+<hr/>
+
 <h2 align="center">skills</h2>
 
 <table width="100%">
@@ -58,10 +60,12 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </tr>
 </table>
 
+<hr/>
+
 <h2 align="center">open source contributions</h2>
 
 <!-- START:ecosystem -->
-<table>
+<table width="100%">
 <tr><td valign="top" width="50%">
 
 <details>
@@ -187,14 +191,32 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </table>
 <!-- END:ecosystem -->
 
+<hr/>
+
 <h2 align="center">projects</h2>
 
 <!-- START:projects -->
-| repo | what it does | stack |
-| --- | --- | --- |
-| **[defi-dashboard](https://github.com/tenderdeve/defi-dashboard)** | Real-time DeFi portfolio dashboard — token prices, LP positions, P&L tracking — Next.js + wagmi + TailwindCSS | TypeScript, JavaScript |
-| **[wallet-profiler](https://github.com/tenderdeve/wallet-profiler)** | On-chain wallet analytics platform | JavaScript |
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
+
+<h3><a href="https://github.com/tenderdeve/defi-dashboard">defi-dashboard</a></h3>
+<sub>Real-time DeFi portfolio dashboard — token prices, LP positions, P&L tracking — Next.js + wagmi + TailwindCSS</sub><br/><br/>
+<sub><code>TypeScript</code>&nbsp;&nbsp;<code>JavaScript</code></sub>
+
+</td>
+<td valign="top" width="50%">
+
+<h3><a href="https://github.com/tenderdeve/wallet-profiler">wallet-profiler</a></h3>
+<sub>On-chain wallet analytics platform</sub><br/><br/>
+<sub><code>JavaScript</code></sub>
+
+</td>
+</tr>
+</table>
 <!-- END:projects -->
+
+<hr/>
 
 <h2 align="center">reach</h2>
 
