@@ -9,10 +9,17 @@ README="README.md"
 TMPDIR=$(mktemp -d)
 trap 'rm -rf "$TMPDIR"' EXIT
 
-# --- Ecosystem: external PRs grouped by repo ---
-gh search prs --author="$USER" --limit=100 --json repository,title,url,state \
-  | jq -r --arg user "$USER" '
-      [.[] | select(.repository.nameWithOwner | startswith($user + "/") | not)]
+# --- Open Source Contributions: external public-repo PRs grouped by repo ---
+# SKIP_ORGS lists owner namespaces to exclude (own profile + private/internal orgs).
+SKIP_ORGS="${SKIP_ORGS:-$USER ANCILAR NonyaBTC}"
+
+gh search prs --author="$USER" --limit=300 --json repository,title,url,state \
+  | jq -r --arg skip "$SKIP_ORGS" '
+      ($skip | split(" ")) as $skip_orgs
+      | [.[] | select(
+          .repository.nameWithOwner as $name
+          | ($skip_orgs | any(. as $org | $name | startswith($org + "/"))) | not
+        )]
       | group_by(.repository.nameWithOwner)
       | map({
           repo: .[0].repository.nameWithOwner,
@@ -24,22 +31,35 @@ gh search prs --author="$USER" --limit=100 --json repository,title,url,state \
             state: .state
           }]
         })
-      | sort_by(-.count)
-      | map(
-          "<details>\n"
-          + "<summary><b><a href=\"https://github.com/" + .repo + "\">"
-            + .repo
-          + "</a></b> &middot; "
-          + (.count | tostring) + " PR" + (if .count > 1 then "s" else "" end)
-          + " &middot; <a href=\"https://github.com/" + .repo + "/pulls?q=author%3A" + $user + "+is%3Apr\">all →</a>"
-          + "</summary>\n\n"
-          + (.prs | map("- [`#" + .num + "`](" + .url + ") — " + .title) | join("\n"))
-          + "\n\n</details>"
-        )
-      | join("\n\n")' > "$TMPDIR/ecosystem.md"
+      | sort_by(-.count)' > "$TMPDIR/contribs.json"
+
+# Filter out repos that are private/non-public (network-bound visibility check).
+# Cheaper than per-PR check, and the result list is short.
+: > "$TMPDIR/public_repos"
+jq -r '.[].repo' "$TMPDIR/contribs.json" | while read -r repo; do
+  [ -z "$repo" ] && continue
+  vis=$(gh api "repos/$repo" --jq '.visibility' 2>/dev/null || echo "")
+  [ "$vis" = "public" ] && echo "$repo" >> "$TMPDIR/public_repos"
+done
+
+jq -r --rawfile pubs "$TMPDIR/public_repos" --arg user "$USER" '
+    ($pubs | split("\n") | map(select(length > 0))) as $allowed
+    | map(select(.repo as $r | $allowed | any(. == $r)))
+    | map(
+        "<details open>\n"
+        + "<summary><b><a href=\"https://github.com/" + .repo + "\">"
+          + .repo
+        + "</a></b> &middot; "
+        + (.count | tostring) + " PR" + (if .count > 1 then "s" else "" end)
+        + " &middot; <a href=\"https://github.com/" + .repo + "/pulls?q=author%3A" + $user + "+is%3Apr\">all →</a>"
+        + "</summary>\n\n"
+        + (.prs | map("- [`#" + .num + "`](" + .url + ") — " + .title) | join("\n"))
+        + "\n\n</details>"
+      )
+    | join("\n\n")' "$TMPDIR/contribs.json" > "$TMPDIR/ecosystem.md"
 
 if [ ! -s "$TMPDIR/ecosystem.md" ]; then
-  echo "_No external PRs yet._" > "$TMPDIR/ecosystem.md"
+  echo "_No public PRs yet._" > "$TMPDIR/ecosystem.md"
 fi
 
 # --- Activity: true commit count via parallel bare clones (all branches) ---
