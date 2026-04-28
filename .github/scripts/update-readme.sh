@@ -95,7 +95,7 @@ jq -r --rawfile pubs "$TMPDIR/public_repos" --arg user "$USER" '
     | map(select(.repo as $r | $allowed | any(. == $r)))
     | map(
         (.repo | split("/")[0]) as $owner
-        | "<details open>\n"
+        | "<details>\n"
         + "<summary>"
         + "<img src=\"https://github.com/" + $owner + ".png?size=40\" "
           + "width=\"20\" height=\"20\" align=\"top\" "

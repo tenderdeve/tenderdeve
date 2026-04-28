@@ -1,19 +1,8 @@
-<a href="https://vercel.com" title="Vercel"><img align="right" hspace="4" alt="Vercel" height="28" src="https://cdn.simpleicons.org/vercel/8A92B2"/></a>
-<a href="https://thegraph.com" title="The Graph"><img align="right" hspace="4" alt="The Graph" height="28" src="https://cdn.simpleicons.org/thegraph/6747ED"/></a>
-<a href="https://graphql.org" title="GraphQL"><img align="right" hspace="4" alt="GraphQL" height="28" src="https://cdn.simpleicons.org/graphql/E10098"/></a>
-<a href="https://ethereum.org" title="Ethereum"><img align="right" hspace="4" alt="Ethereum" height="28" src="https://cdn.simpleicons.org/ethereum/8A92B2"/></a>
-<a href="https://tailwindcss.com" title="Tailwind CSS"><img align="right" hspace="4" alt="Tailwind" height="28" src="https://cdn.simpleicons.org/tailwindcss/06B6D4"/></a>
-<a href="https://www.typescriptlang.org/" title="TypeScript"><img align="right" hspace="4" alt="TypeScript" height="28" src="https://cdn.simpleicons.org/typescript/3178C6"/></a>
-<a href="https://nextjs.org" title="Next.js"><img align="right" hspace="4" alt="Next.js" height="28" src="https://cdn.simpleicons.org/nextdotjs/8A92B2"/></a>
-<a href="https://react.dev" title="React"><img align="right" hspace="4" alt="React" height="28" src="https://cdn.simpleicons.org/react/61DAFB"/></a>
-
 # tenderdeve
 
 _DeFi frontend engineer — trading UIs, liquidity dashboards, on-chain data viz._
 
 I build the frontends people use to trade, lend, and manage positions in DeFi. React / Next.js + TypeScript + Tailwind, with ethers.js + wagmi + subgraphs underneath. I care about performance, accessibility, and numbers traders trust with real money.
-
-<br clear="all"/>
 
 ```text
 ┌─ now ─────────────────────────────────────────────┐
@@ -26,73 +15,40 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 
 ## skills
 
-<p>
-<sub><b>FRONTEND</b></sub><br/>
-<a href="https://react.dev" title="React"><img alt="React" height="24" src="https://cdn.simpleicons.org/react/61DAFB"/></a>
-&nbsp;
-<a href="https://nextjs.org" title="Next.js"><img alt="Next.js" height="24" src="https://cdn.simpleicons.org/nextdotjs/8A92B2"/></a>
-&nbsp;
-<a href="https://www.typescriptlang.org/" title="TypeScript"><img alt="TypeScript" height="24" src="https://cdn.simpleicons.org/typescript/3178C6"/></a>
-&nbsp;
-<a href="https://tailwindcss.com" title="Tailwind CSS"><img alt="Tailwind" height="24" src="https://cdn.simpleicons.org/tailwindcss/06B6D4"/></a>
-&nbsp;
-<a href="https://vitejs.dev" title="Vite"><img alt="Vite" height="24" src="https://cdn.simpleicons.org/vite/646CFF"/></a>
-&nbsp;
-<a href="https://redux.js.org" title="Redux"><img alt="Redux" height="24" src="https://cdn.simpleicons.org/redux/764ABC"/></a>
-&nbsp;
-<a href="https://storybook.js.org" title="Storybook"><img alt="Storybook" height="24" src="https://cdn.simpleicons.org/storybook/FF4785"/></a>
-</p>
+<table>
+<tr>
+<td align="center" width="96"><a href="https://react.dev"><img height="40" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/></a><br/><sub>React</sub></td>
+<td align="center" width="96"><a href="https://nextjs.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"/><img height="40" alt="Next.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"/></picture></a><br/><sub>Next.js</sub></td>
+<td align="center" width="96"><a href="https://www.typescriptlang.org/"><img height="40" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"/></a><br/><sub>TypeScript</sub></td>
+<td align="center" width="96"><a href="https://tailwindcss.com"><img height="40" alt="Tailwind" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"/></a><br/><sub>Tailwind</sub></td>
+</tr>
+<tr>
+<td align="center" width="96"><a href="https://vitejs.dev"><img height="40" alt="Vite" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg"/></a><br/><sub>Vite</sub></td>
+<td align="center" width="96"><a href="https://redux.js.org"><img height="40" alt="Redux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"/></a><br/><sub>Redux</sub></td>
+<td align="center" width="96"><a href="https://ethereum.org"><img height="40" alt="Ethereum" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ethereum/ethereum-original.svg"/></a><br/><sub>Ethereum</sub></td>
+<td align="center" width="96"><a href="https://soliditylang.org"><img height="40" alt="Solidity" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg"/></a><br/><sub>Solidity</sub></td>
+</tr>
+<tr>
+<td align="center" width="96"><a href="https://graphql.org"><img height="40" alt="GraphQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"/></a><br/><sub>GraphQL</sub></td>
+<td align="center" width="96"><a href="https://www.apollographql.com"><img height="40" alt="Apollo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apollographql/apollographql-original.svg"/></a><br/><sub>Apollo</sub></td>
+<td align="center" width="96"><a href="https://thegraph.com"><img height="40" alt="The Graph" src="https://cdn.simpleicons.org/thegraph/6747ED"/></a><br/><sub>The Graph</sub></td>
+<td align="center" width="96"><a href="https://tanstack.com/query"><img height="40" alt="React Query" src="https://cdn.simpleicons.org/reactquery/FF4154"/></a><br/><sub>React Query</sub></td>
+</tr>
+<tr>
+<td align="center" width="96"><a href="https://nodejs.org"><img height="40" alt="Node.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/></a><br/><sub>Node.js</sub></td>
+<td align="center" width="96"><a href="https://pnpm.io"><img height="40" alt="pnpm" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pnpm/pnpm-original.svg"/></a><br/><sub>pnpm</sub></td>
+<td align="center" width="96"><a href="https://vercel.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/vercel/ffffff"/><img height="40" alt="Vercel" src="https://cdn.simpleicons.org/vercel/000000"/></picture></a><br/><sub>Vercel</sub></td>
+<td align="center" width="96"><a href="https://eslint.org"><img height="40" alt="ESLint" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg"/></a><br/><sub>ESLint</sub></td>
+</tr>
+<tr>
+<td align="center" width="96"><a href="https://prettier.io"><img height="40" alt="Prettier" src="https://cdn.simpleicons.org/prettier/F7B93E"/></a><br/><sub>Prettier</sub></td>
+<td align="center" width="96"><a href="https://playwright.dev"><img height="40" alt="Playwright" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg"/></a><br/><sub>Playwright</sub></td>
+<td align="center" width="96"><a href="https://vitest.dev"><img height="40" alt="Vitest" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitest/vitest-original.svg"/></a><br/><sub>Vitest</sub></td>
+<td align="center" width="96"><a href="https://github.com/features/actions"><img height="40" alt="GitHub Actions" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg"/></a><br/><sub>GH&nbsp;Actions</sub></td>
+</tr>
+</table>
 
-<p>
-<sub><b>WEB3</b></sub><br/>
-<a href="https://ethereum.org" title="Ethereum"><img alt="Ethereum" height="24" src="https://cdn.simpleicons.org/ethereum/8A92B2"/></a>
-&nbsp;
-<a href="https://docs.ethers.org/" title="Ethers.js"><img alt="Ethers" height="24" src="https://cdn.simpleicons.org/ethers/2535A0"/></a>
-&nbsp;
-<a href="https://viem.sh" title="Viem"><img alt="Viem" height="24" src="https://img.shields.io/badge/-viem-FFC517?style=flat-square&logoColor=000"/></a>
-&nbsp;
-<a href="https://wagmi.sh" title="Wagmi"><img alt="Wagmi" height="24" src="https://img.shields.io/badge/-wagmi-35495E?style=flat-square"/></a>
-&nbsp;
-<a href="https://soliditylang.org" title="Solidity"><img alt="Solidity" height="24" src="https://cdn.simpleicons.org/solidity/8A92B2"/></a>
-&nbsp;
-<a href="https://book.getfoundry.sh/" title="Foundry"><img alt="Foundry" height="24" src="https://img.shields.io/badge/-Foundry-2B2B2B?style=flat-square"/></a>
-&nbsp;
-<a href="https://hardhat.org" title="Hardhat"><img alt="Hardhat" height="24" src="https://img.shields.io/badge/-Hardhat-FFF100?style=flat-square&logoColor=000"/></a>
-</p>
-
-<p>
-<sub><b>DATA</b></sub><br/>
-<a href="https://graphql.org" title="GraphQL"><img alt="GraphQL" height="24" src="https://cdn.simpleicons.org/graphql/E10098"/></a>
-&nbsp;
-<a href="https://www.apollographql.com" title="Apollo"><img alt="Apollo" height="24" src="https://cdn.simpleicons.org/apollographql/311C87"/></a>
-&nbsp;
-<a href="https://thegraph.com" title="The Graph"><img alt="The Graph" height="24" src="https://cdn.simpleicons.org/thegraph/6747ED"/></a>
-&nbsp;
-<a href="https://tanstack.com/query" title="React Query"><img alt="React Query" height="24" src="https://cdn.simpleicons.org/reactquery/FF4154"/></a>
-&nbsp;
-<a href="https://swr.vercel.app" title="SWR"><img alt="SWR" height="24" src="https://img.shields.io/badge/-SWR-000?style=flat-square"/></a>
-&nbsp;
-<a href="https://ipfs.tech" title="IPFS"><img alt="IPFS" height="24" src="https://cdn.simpleicons.org/ipfs/65C2CB"/></a>
-</p>
-
-<p>
-<sub><b>TOOLS</b></sub><br/>
-<a href="https://vercel.com" title="Vercel"><img alt="Vercel" height="24" src="https://cdn.simpleicons.org/vercel/8A92B2"/></a>
-&nbsp;
-<a href="https://nodejs.org" title="Node.js"><img alt="Node.js" height="24" src="https://cdn.simpleicons.org/nodedotjs/5FA04E"/></a>
-&nbsp;
-<a href="https://pnpm.io" title="pnpm"><img alt="pnpm" height="24" src="https://cdn.simpleicons.org/pnpm/F69220"/></a>
-&nbsp;
-<a href="https://eslint.org" title="ESLint"><img alt="ESLint" height="24" src="https://cdn.simpleicons.org/eslint/4B32C3"/></a>
-&nbsp;
-<a href="https://prettier.io" title="Prettier"><img alt="Prettier" height="24" src="https://cdn.simpleicons.org/prettier/F7B93E"/></a>
-&nbsp;
-<a href="https://playwright.dev" title="Playwright"><img alt="Playwright" height="24" src="https://cdn.simpleicons.org/playwright/2EAD33"/></a>
-&nbsp;
-<a href="https://vitest.dev" title="Vitest"><img alt="Vitest" height="24" src="https://cdn.simpleicons.org/vitest/6E9F18"/></a>
-&nbsp;
-<a href="https://github.com/features/actions" title="GitHub Actions"><img alt="GitHub Actions" height="24" src="https://cdn.simpleicons.org/githubactions/2088FF"/></a>
-</p>
+<sub>also using: `ethers.js` · `viem` · `wagmi` · `Foundry` · `Hardhat` · `IPFS` · `SWR` · `Storybook`</sub>
 
 ## projects
 
@@ -108,7 +64,7 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 ## open source contributions
 
 <!-- START:ecosystem -->
-<details open>
+<details>
 <summary><img src="https://github.com/daaoai.png?size=40" width="20" height="20" align="top" alt="daaoai" />&nbsp; <b><a href="https://github.com/daaoai/dex">daaoai/dex</a></b> &middot; 5 PRs &middot; <a href="https://github.com/daaoai/dex/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 
 - [`#7`](https://github.com/daaoai/dex/pull/7) — fix: eslint any bypass
@@ -119,7 +75,7 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 
 </details>
 
-<details open>
+<details>
 <summary><img src="https://github.com/NomicFoundation.png?size=40" width="20" height="20" align="top" alt="NomicFoundation" />&nbsp; <b><a href="https://github.com/NomicFoundation/hardhat">NomicFoundation/hardhat</a></b> &middot; 2 PRs &middot; <a href="https://github.com/NomicFoundation/hardhat/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 
 - [`#8201`](https://github.com/NomicFoundation/hardhat/pull/8201) — perf: lazy-load heavy dependencies in hardhat-utils
@@ -127,7 +83,7 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 
 </details>
 
-<details open>
+<details>
 <summary><img src="https://github.com/family.png?size=40" width="20" height="20" align="top" alt="family" />&nbsp; <b><a href="https://github.com/family/connectkit">family/connectkit</a></b> &middot; 2 PRs &middot; <a href="https://github.com/family/connectkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 
 - [`#508`](https://github.com/family/connectkit/pull/508) — fix: add Base to default chains so its icon renders out of the box
@@ -135,7 +91,7 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 
 </details>
 
-<details open>
+<details>
 <summary><img src="https://github.com/near.png?size=40" width="20" height="20" align="top" alt="near" />&nbsp; <b><a href="https://github.com/near/near-sdk-js">near/near-sdk-js</a></b> &middot; 2 PRs &middot; <a href="https://github.com/near/near-sdk-js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 
 - [`#428`](https://github.com/near/near-sdk-js/pull/428) — fix: add missing ft_metadata view function to fungible token example
@@ -143,7 +99,7 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 
 </details>
 
-<details open>
+<details>
 <summary><img src="https://github.com/wevm.png?size=40" width="20" height="20" align="top" alt="wevm" />&nbsp; <b><a href="https://github.com/wevm/viem">wevm/viem</a></b> &middot; 2 PRs &middot; <a href="https://github.com/wevm/viem/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 
 - [`#4554`](https://github.com/wevm/viem/pull/4554) — feat: support anonymous events in encodeEventTopics
@@ -151,49 +107,49 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 
 </details>
 
-<details open>
+<details>
 <summary><img src="https://github.com/MetaMask.png?size=40" width="20" height="20" align="top" alt="MetaMask" />&nbsp; <b><a href="https://github.com/MetaMask/metamask-extension">MetaMask/metamask-extension</a></b> &middot; 1 PR &middot; <a href="https://github.com/MetaMask/metamask-extension/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 
 - [`#42188`](https://github.com/MetaMask/metamask-extension/pull/42188) — docs: replace outdated IRC link with Mozilla Matrix channel
 
 </details>
 
-<details open>
+<details>
 <summary><img src="https://github.com/OffchainLabs.png?size=40" width="20" height="20" align="top" alt="OffchainLabs" />&nbsp; <b><a href="https://github.com/OffchainLabs/nitro">OffchainLabs/nitro</a></b> &middot; 1 PR &middot; <a href="https://github.com/OffchainLabs/nitro/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 
 - [`#4677`](https://github.com/OffchainLabs/nitro/pull/4677) — fix: add forge version check to check-build.sh
 
 </details>
 
-<details open>
+<details>
 <summary><img src="https://github.com/ensdomains.png?size=40" width="20" height="20" align="top" alt="ensdomains" />&nbsp; <b><a href="https://github.com/ensdomains/ens-app-v3">ensdomains/ens-app-v3</a></b> &middot; 1 PR &middot; <a href="https://github.com/ensdomains/ens-app-v3/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 
 - [`#1125`](https://github.com/ensdomains/ens-app-v3/pull/1125) — fix: use calendar-aware year calculation in renew modal to prevent infinite loop
 
 </details>
 
-<details open>
+<details>
 <summary><img src="https://github.com/ethers-io.png?size=40" width="20" height="20" align="top" alt="ethers-io" />&nbsp; <b><a href="https://github.com/ethers-io/ethers.js">ethers-io/ethers.js</a></b> &middot; 1 PR &middot; <a href="https://github.com/ethers-io/ethers.js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 
 - [`#5132`](https://github.com/ethers-io/ethers.js/pull/5132) — fix: defer subscriber teardown in emit to prevent WebSocket subscription loss
 
 </details>
 
-<details open>
+<details>
 <summary><img src="https://github.com/ponder-sh.png?size=40" width="20" height="20" align="top" alt="ponder-sh" />&nbsp; <b><a href="https://github.com/ponder-sh/ponder">ponder-sh/ponder</a></b> &middot; 1 PR &middot; <a href="https://github.com/ponder-sh/ponder/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 
 - [`#2299`](https://github.com/ponder-sh/ponder/pull/2299) — fix: include public schema in PGLite search_path for raw SQL queries
 
 </details>
 
-<details open>
+<details>
 <summary><img src="https://github.com/remix-project-org.png?size=40" width="20" height="20" align="top" alt="remix-project-org" />&nbsp; <b><a href="https://github.com/remix-project-org/remix-project">remix-project-org/remix-project</a></b> &middot; 1 PR &middot; <a href="https://github.com/remix-project-org/remix-project/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 
 - [`#7147`](https://github.com/remix-project-org/remix-project/pull/7147) — fix: default deployed contract functions to expanded state
 
 </details>
 
-<details open>
+<details>
 <summary><img src="https://github.com/solana-foundation.png?size=40" width="20" height="20" align="top" alt="solana-foundation" />&nbsp; <b><a href="https://github.com/solana-foundation/anchor">solana-foundation/anchor</a></b> &middot; 1 PR &middot; <a href="https://github.com/solana-foundation/anchor/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 
 - [`#4479`](https://github.com/solana-foundation/anchor/pull/4479) — docs: add surfpool configuration reference to Anchor.toml docs
