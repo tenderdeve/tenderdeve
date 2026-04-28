@@ -1,8 +1,10 @@
-# tenderdeve
+<h3 align="center">DeFi frontend engineer — trading UIs, liquidity dashboards, on-chain data viz.</h3>
 
-_DeFi frontend engineer — trading UIs, liquidity dashboards, on-chain data viz._
+<p align="center">I build the frontends people use to trade, lend, and manage positions in DeFi.<br/>
+React / Next.js + TypeScript + Tailwind, with ethers.js + wagmi + subgraphs underneath.<br/>
+I care about performance, accessibility, and numbers traders trust with real money.</p>
 
-I build the frontends people use to trade, lend, and manage positions in DeFi. React / Next.js + TypeScript + Tailwind, with ethers.js + wagmi + subgraphs underneath. I care about performance, accessibility, and numbers traders trust with real money.
+<div align="center">
 
 ```text
 ┌─ now ─────────────────────────────────────────────┐
@@ -13,7 +15,10 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 └───────────────────────────────────────────────────┘
 ```
 
-## skills
+</div>
+
+<h2 align="center">skills</h2>
+<p align="center"><sub><i>color brand marks · click any icon to visit the project</i></sub></p>
 
 <table>
 <tr>
@@ -68,7 +73,138 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 <a href="https://storybook.js.org" title="Storybook"><img height="28" alt="Storybook" src="https://cdn.simpleicons.org/storybook/FF4785"/></a>
 </p>
 
-## projects
+<h2 align="center">open source contributions</h2>
+<p align="center"><sub><i>public-repo PRs grouped by org · click a card to expand</i></sub></p>
+
+<!-- START:ecosystem -->
+<table>
+<tr><td valign="top" width="50%">
+
+<details>
+<summary><img src="https://github.com/daaoai.png?size=40" width="20" height="20" align="top" alt="daaoai" /> <b><a href="https://github.com/daaoai/dex">daaoai/dex</a></b> &middot; 5 PRs &middot; <a href="https://github.com/daaoai/dex/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/daaoai/dex/pull/7"><code>#7</code></a> — fix: eslint any bypass</li>
+<li><a href="https://github.com/daaoai/dex/pull/6"><code>#6</code></a> — Feat/minor features</li>
+<li><a href="https://github.com/daaoai/dex/pull/5"><code>#5</code></a> — Chore/refactor code</li>
+<li><a href="https://github.com/daaoai/dex/pull/4"><code>#4</code></a> — Feat/swap UI</li>
+<li><a href="https://github.com/daaoai/dex/pull/2"><code>#2</code></a> — Feat/graph UI</li>
+</ul>
+</details>
+
+</td><td valign="top" width="50%">
+
+<details>
+<summary><img src="https://github.com/NomicFoundation.png?size=40" width="20" height="20" align="top" alt="NomicFoundation" /> <b><a href="https://github.com/NomicFoundation/hardhat">NomicFoundation/hardhat</a></b> &middot; 2 PRs &middot; <a href="https://github.com/NomicFoundation/hardhat/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/NomicFoundation/hardhat/pull/8201"><code>#8201</code></a> — perf: lazy-load heavy dependencies in hardhat-utils</li>
+<li><a href="https://github.com/NomicFoundation/hardhat/pull/8200"><code>#8200</code></a> — chore: drop beta references from init process and templates</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" width="50%">
+
+<details>
+<summary><img src="https://github.com/family.png?size=40" width="20" height="20" align="top" alt="family" /> <b><a href="https://github.com/family/connectkit">family/connectkit</a></b> &middot; 2 PRs &middot; <a href="https://github.com/family/connectkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/family/connectkit/pull/508"><code>#508</code></a> — fix: add Base to default chains so its icon renders out of the box</li>
+<li><a href="https://github.com/family/connectkit/pull/507"><code>#507</code></a> — fix: deduplicate injected connector when EIP-6963 wallet is detected</li>
+</ul>
+</details>
+
+</td><td valign="top" width="50%">
+
+<details>
+<summary><img src="https://github.com/near.png?size=40" width="20" height="20" align="top" alt="near" /> <b><a href="https://github.com/near/near-sdk-js">near/near-sdk-js</a></b> &middot; 2 PRs &middot; <a href="https://github.com/near/near-sdk-js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/near/near-sdk-js/pull/428"><code>#428</code></a> — fix: add missing ft_metadata view function to fungible token example</li>
+<li><a href="https://github.com/near/near-sdk-js/pull/427"><code>#427</code></a> — docs: add CLI usage example for building and deploying contracts</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" width="50%">
+
+<details>
+<summary><img src="https://github.com/wevm.png?size=40" width="20" height="20" align="top" alt="wevm" /> <b><a href="https://github.com/wevm/viem">wevm/viem</a></b> &middot; 2 PRs &middot; <a href="https://github.com/wevm/viem/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/wevm/viem/pull/4554"><code>#4554</code></a> — feat: support anonymous events in encodeEventTopics</li>
+<li><a href="https://github.com/wevm/viem/pull/4553"><code>#4553</code></a> — fix: clean up listenersCache and cleanupCache when last observer unsubscribes</li>
+</ul>
+</details>
+
+</td><td valign="top" width="50%">
+
+<details>
+<summary><img src="https://github.com/MetaMask.png?size=40" width="20" height="20" align="top" alt="MetaMask" /> <b><a href="https://github.com/MetaMask/metamask-extension">MetaMask/metamask-extension</a></b> &middot; 1 PR &middot; <a href="https://github.com/MetaMask/metamask-extension/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/MetaMask/metamask-extension/pull/42188"><code>#42188</code></a> — docs: replace outdated IRC link with Mozilla Matrix channel</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" width="50%">
+
+<details>
+<summary><img src="https://github.com/OffchainLabs.png?size=40" width="20" height="20" align="top" alt="OffchainLabs" /> <b><a href="https://github.com/OffchainLabs/nitro">OffchainLabs/nitro</a></b> &middot; 1 PR &middot; <a href="https://github.com/OffchainLabs/nitro/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/OffchainLabs/nitro/pull/4677"><code>#4677</code></a> — fix: add forge version check to check-build.sh</li>
+</ul>
+</details>
+
+</td><td valign="top" width="50%">
+
+<details>
+<summary><img src="https://github.com/ensdomains.png?size=40" width="20" height="20" align="top" alt="ensdomains" /> <b><a href="https://github.com/ensdomains/ens-app-v3">ensdomains/ens-app-v3</a></b> &middot; 1 PR &middot; <a href="https://github.com/ensdomains/ens-app-v3/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/ensdomains/ens-app-v3/pull/1125"><code>#1125</code></a> — fix: use calendar-aware year calculation in renew modal to prevent infinite loop</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" width="50%">
+
+<details>
+<summary><img src="https://github.com/ethers-io.png?size=40" width="20" height="20" align="top" alt="ethers-io" /> <b><a href="https://github.com/ethers-io/ethers.js">ethers-io/ethers.js</a></b> &middot; 1 PR &middot; <a href="https://github.com/ethers-io/ethers.js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/ethers-io/ethers.js/pull/5132"><code>#5132</code></a> — fix: defer subscriber teardown in emit to prevent WebSocket subscription loss</li>
+</ul>
+</details>
+
+</td><td valign="top" width="50%">
+
+<details>
+<summary><img src="https://github.com/ponder-sh.png?size=40" width="20" height="20" align="top" alt="ponder-sh" /> <b><a href="https://github.com/ponder-sh/ponder">ponder-sh/ponder</a></b> &middot; 1 PR &middot; <a href="https://github.com/ponder-sh/ponder/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/ponder-sh/ponder/pull/2299"><code>#2299</code></a> — fix: include public schema in PGLite search_path for raw SQL queries</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" width="50%">
+
+<details>
+<summary><img src="https://github.com/remix-project-org.png?size=40" width="20" height="20" align="top" alt="remix-project-org" /> <b><a href="https://github.com/remix-project-org/remix-project">remix-project-org/remix-project</a></b> &middot; 1 PR &middot; <a href="https://github.com/remix-project-org/remix-project/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/remix-project-org/remix-project/pull/7147"><code>#7147</code></a> — fix: default deployed contract functions to expanded state</li>
+</ul>
+</details>
+
+</td><td valign="top" width="50%">
+
+<details>
+<summary><img src="https://github.com/solana-foundation.png?size=40" width="20" height="20" align="top" alt="solana-foundation" /> <b><a href="https://github.com/solana-foundation/anchor">solana-foundation/anchor</a></b> &middot; 1 PR &middot; <a href="https://github.com/solana-foundation/anchor/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/solana-foundation/anchor/pull/4479"><code>#4479</code></a> — docs: add surfpool configuration reference to Anchor.toml docs</li>
+</ul>
+</details>
+
+</td></tr>
+</table>
+<!-- END:ecosystem -->
+
+<h2 align="center">projects</h2>
+<p align="center"><sub><i>auto-pulled from owned non-fork public repos · sorted by latest push</i></sub></p>
 
 <!-- START:projects -->
 | repo | what it does | stack |
@@ -77,106 +213,18 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 | **[wallet-profiler](https://github.com/tenderdeve/wallet-profiler)** | On-chain wallet analytics platform | JavaScript |
 <!-- END:projects -->
 
-<sub>auto-pulled from owned non-fork public repos, sorted by latest push.</sub>
+<h2 align="center">reach</h2>
 
-## open source contributions
+<p align="center">
+<a href="https://github.com/tenderdeve">github</a>
+&nbsp;·&nbsp;
+<a href="https://x.com/tenderdeve">x</a>
+&nbsp;·&nbsp;
+<a href="https://www.linkedin.com/in/tenderdeve">linkedin</a>
+&nbsp;·&nbsp;
+<a href="mailto:tenderdeve@proton.me">email</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/sponsors/tenderdeve">sponsor</a>
+</p>
 
-<!-- START:ecosystem -->
-<details>
-<summary><img src="https://github.com/daaoai.png?size=40" width="20" height="20" align="top" alt="daaoai" />&nbsp; <b><a href="https://github.com/daaoai/dex">daaoai/dex</a></b> &middot; 5 PRs &middot; <a href="https://github.com/daaoai/dex/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-
-- [`#7`](https://github.com/daaoai/dex/pull/7) — fix: eslint any bypass
-- [`#6`](https://github.com/daaoai/dex/pull/6) — Feat/minor features
-- [`#5`](https://github.com/daaoai/dex/pull/5) — Chore/refactor code
-- [`#4`](https://github.com/daaoai/dex/pull/4) — Feat/swap UI
-- [`#2`](https://github.com/daaoai/dex/pull/2) — Feat/graph UI
-
-</details>
-
-<details>
-<summary><img src="https://github.com/NomicFoundation.png?size=40" width="20" height="20" align="top" alt="NomicFoundation" />&nbsp; <b><a href="https://github.com/NomicFoundation/hardhat">NomicFoundation/hardhat</a></b> &middot; 2 PRs &middot; <a href="https://github.com/NomicFoundation/hardhat/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-
-- [`#8201`](https://github.com/NomicFoundation/hardhat/pull/8201) — perf: lazy-load heavy dependencies in hardhat-utils
-- [`#8200`](https://github.com/NomicFoundation/hardhat/pull/8200) — chore: drop beta references from init process and templates
-
-</details>
-
-<details>
-<summary><img src="https://github.com/family.png?size=40" width="20" height="20" align="top" alt="family" />&nbsp; <b><a href="https://github.com/family/connectkit">family/connectkit</a></b> &middot; 2 PRs &middot; <a href="https://github.com/family/connectkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-
-- [`#508`](https://github.com/family/connectkit/pull/508) — fix: add Base to default chains so its icon renders out of the box
-- [`#507`](https://github.com/family/connectkit/pull/507) — fix: deduplicate injected connector when EIP-6963 wallet is detected
-
-</details>
-
-<details>
-<summary><img src="https://github.com/near.png?size=40" width="20" height="20" align="top" alt="near" />&nbsp; <b><a href="https://github.com/near/near-sdk-js">near/near-sdk-js</a></b> &middot; 2 PRs &middot; <a href="https://github.com/near/near-sdk-js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-
-- [`#428`](https://github.com/near/near-sdk-js/pull/428) — fix: add missing ft_metadata view function to fungible token example
-- [`#427`](https://github.com/near/near-sdk-js/pull/427) — docs: add CLI usage example for building and deploying contracts
-
-</details>
-
-<details>
-<summary><img src="https://github.com/wevm.png?size=40" width="20" height="20" align="top" alt="wevm" />&nbsp; <b><a href="https://github.com/wevm/viem">wevm/viem</a></b> &middot; 2 PRs &middot; <a href="https://github.com/wevm/viem/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-
-- [`#4554`](https://github.com/wevm/viem/pull/4554) — feat: support anonymous events in encodeEventTopics
-- [`#4553`](https://github.com/wevm/viem/pull/4553) — fix: clean up listenersCache and cleanupCache when last observer unsubscribes
-
-</details>
-
-<details>
-<summary><img src="https://github.com/MetaMask.png?size=40" width="20" height="20" align="top" alt="MetaMask" />&nbsp; <b><a href="https://github.com/MetaMask/metamask-extension">MetaMask/metamask-extension</a></b> &middot; 1 PR &middot; <a href="https://github.com/MetaMask/metamask-extension/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-
-- [`#42188`](https://github.com/MetaMask/metamask-extension/pull/42188) — docs: replace outdated IRC link with Mozilla Matrix channel
-
-</details>
-
-<details>
-<summary><img src="https://github.com/OffchainLabs.png?size=40" width="20" height="20" align="top" alt="OffchainLabs" />&nbsp; <b><a href="https://github.com/OffchainLabs/nitro">OffchainLabs/nitro</a></b> &middot; 1 PR &middot; <a href="https://github.com/OffchainLabs/nitro/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-
-- [`#4677`](https://github.com/OffchainLabs/nitro/pull/4677) — fix: add forge version check to check-build.sh
-
-</details>
-
-<details>
-<summary><img src="https://github.com/ensdomains.png?size=40" width="20" height="20" align="top" alt="ensdomains" />&nbsp; <b><a href="https://github.com/ensdomains/ens-app-v3">ensdomains/ens-app-v3</a></b> &middot; 1 PR &middot; <a href="https://github.com/ensdomains/ens-app-v3/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-
-- [`#1125`](https://github.com/ensdomains/ens-app-v3/pull/1125) — fix: use calendar-aware year calculation in renew modal to prevent infinite loop
-
-</details>
-
-<details>
-<summary><img src="https://github.com/ethers-io.png?size=40" width="20" height="20" align="top" alt="ethers-io" />&nbsp; <b><a href="https://github.com/ethers-io/ethers.js">ethers-io/ethers.js</a></b> &middot; 1 PR &middot; <a href="https://github.com/ethers-io/ethers.js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-
-- [`#5132`](https://github.com/ethers-io/ethers.js/pull/5132) — fix: defer subscriber teardown in emit to prevent WebSocket subscription loss
-
-</details>
-
-<details>
-<summary><img src="https://github.com/ponder-sh.png?size=40" width="20" height="20" align="top" alt="ponder-sh" />&nbsp; <b><a href="https://github.com/ponder-sh/ponder">ponder-sh/ponder</a></b> &middot; 1 PR &middot; <a href="https://github.com/ponder-sh/ponder/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-
-- [`#2299`](https://github.com/ponder-sh/ponder/pull/2299) — fix: include public schema in PGLite search_path for raw SQL queries
-
-</details>
-
-<details>
-<summary><img src="https://github.com/remix-project-org.png?size=40" width="20" height="20" align="top" alt="remix-project-org" />&nbsp; <b><a href="https://github.com/remix-project-org/remix-project">remix-project-org/remix-project</a></b> &middot; 1 PR &middot; <a href="https://github.com/remix-project-org/remix-project/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-
-- [`#7147`](https://github.com/remix-project-org/remix-project/pull/7147) — fix: default deployed contract functions to expanded state
-
-</details>
-
-<details>
-<summary><img src="https://github.com/solana-foundation.png?size=40" width="20" height="20" align="top" alt="solana-foundation" />&nbsp; <b><a href="https://github.com/solana-foundation/anchor">solana-foundation/anchor</a></b> &middot; 1 PR &middot; <a href="https://github.com/solana-foundation/anchor/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-
-- [`#4479`](https://github.com/solana-foundation/anchor/pull/4479) — docs: add surfpool configuration reference to Anchor.toml docs
-
-</details>
-<!-- END:ecosystem -->
-
-## reach
-
-[github](https://github.com/tenderdeve) &nbsp;·&nbsp; [x](https://x.com/tenderdeve) &nbsp;·&nbsp; [linkedin](https://www.linkedin.com/in/tenderdeve) &nbsp;·&nbsp; [email](mailto:tenderdeve@proton.me) &nbsp;·&nbsp; [sponsor](https://github.com/sponsors/tenderdeve)
-
-<sub>open to freelance — DeFi frontend infra, trading UIs, on-chain data viz.</sub>
+<p align="center"><sub>open to freelance — DeFi frontend infra, trading UIs, on-chain data viz.</sub></p>

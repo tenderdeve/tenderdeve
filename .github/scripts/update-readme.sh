@@ -100,18 +100,35 @@ jq -r --rawfile pubs "$TMPDIR/public_repos" --arg user "$USER" '
         + "<img src=\"https://github.com/" + $owner + ".png?size=40\" "
           + "width=\"20\" height=\"20\" align=\"top\" "
           + "alt=\"" + $owner + "\" />"
-        + "&nbsp; <b><a href=\"https://github.com/" + .repo + "\">"
+        + " <b><a href=\"https://github.com/" + .repo + "\">"
           + .repo
         + "</a></b> &middot; "
         + (.count | tostring) + " PR" + (if .count > 1 then "s" else "" end)
         + " &middot; <a href=\"https://github.com/" + .repo + "/pulls?q=author%3A" + $user + "+is%3Apr\">all →</a>"
-        + "</summary>\n\n"
-        + (.prs | map("- [`#" + .num + "`](" + .url + ") — " + .title) | join("\n"))
-        + "\n\n</details>"
+        + "</summary>\n"
+        + "<ul>\n"
+        + (.prs | map("<li><a href=\"" + .url + "\"><code>#" + .num + "</code></a> — " + (.title | gsub("<"; "&lt;") | gsub(">"; "&gt;")) + "</li>") | join("\n"))
+        + "\n</ul>\n"
+        + "</details>"
       )
-    | join("\n\n")' "$TMPDIR/contribs.json" > "$TMPDIR/ecosystem.md"
+    | (
+        if length == 0 then ""
+        else
+          [range(0; (length / 2 | ceil)) as $i | .[($i*2):($i*2+2)]]
+          | map(
+              "<tr>"
+              + (
+                  map("<td valign=\"top\" width=\"50%\">\n\n" + . + "\n\n</td>")
+                  + (if length < 2 then ["<td valign=\"top\" width=\"50%\"></td>"] else [] end)
+                  | join("")
+                )
+              + "</tr>"
+            )
+          | "<table>\n" + join("\n") + "\n</table>"
+        end
+      )' "$TMPDIR/contribs.json" > "$TMPDIR/ecosystem.md"
 
-if [ ! -s "$TMPDIR/ecosystem.md" ]; then
+if [ ! -s "$TMPDIR/ecosystem.md" ] || [ "$(cat "$TMPDIR/ecosystem.md")" = "" ]; then
   echo "_No public PRs yet._" > "$TMPDIR/ecosystem.md"
 fi
 
