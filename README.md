@@ -1,4 +1,8 @@
-<h3 align="center">DeFi frontend engineer — trading UIs, liquidity dashboards, on-chain data viz.</h3>
+<div align="center">
+
+### DeFi frontend engineer — trading UIs, liquidity dashboards, on-chain data viz.
+
+</div>
 
 <p align="center">I build the frontends people use to trade, lend, and manage positions in DeFi.<br/>
 React / Next.js + TypeScript + Tailwind, with ethers.js + wagmi + subgraphs underneath.<br/>
@@ -19,7 +23,11 @@ I care about performance, accessibility, and numbers traders trust with real mon
 
 <hr/>
 
-<h2 align="center">skills</h2>
+<div align="center">
+
+## skills
+
+</div>
 
 <table width="100%">
 <tr>
@@ -62,7 +70,11 @@ I care about performance, accessibility, and numbers traders trust with real mon
 
 <hr/>
 
-<h2 align="center">open source contributions</h2>
+<div align="center">
+
+## open source contributions
+
+</div>
 
 <!-- START:ecosystem -->
 <table width="100%">
@@ -193,7 +205,11 @@ I care about performance, accessibility, and numbers traders trust with real mon
 
 <hr/>
 
-<h2 align="center">projects</h2>
+<div align="center">
+
+## projects
+
+</div>
 
 <!-- START:projects -->
 <table width="100%">
@@ -218,7 +234,11 @@ I care about performance, accessibility, and numbers traders trust with real mon
 
 <hr/>
 
-<h2 align="center">reach</h2>
+<div align="center">
+
+## reach
+
+</div>
 
 <p align="center">
 <a href="https://github.com/tenderdeve">github.com/tenderdeve</a>
