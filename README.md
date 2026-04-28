@@ -19,48 +19,42 @@ I care about performance, accessibility, and numbers traders trust with real mon
 
 <h2 align="center">skills</h2>
 
-<table>
+<table width="100%">
 <tr>
-<td align="center" width="96"><a href="https://react.dev"><img height="40" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/></a><br/><sub>React</sub></td>
-<td align="center" width="96"><a href="https://nextjs.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"/><img height="40" alt="Next.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"/></picture></a><br/><sub>Next.js</sub></td>
-<td align="center" width="96"><a href="https://www.typescriptlang.org/"><img height="40" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"/></a><br/><sub>TypeScript</sub></td>
-<td align="center" width="96"><a href="https://tailwindcss.com"><img height="40" alt="Tailwind" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"/></a><br/><sub>Tailwind</sub></td>
+<td align="center" width="14%"><a href="https://react.dev"><img height="40" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/></a><br/><sub>React</sub></td>
+<td align="center" width="14%"><a href="https://nextjs.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"/><img height="40" alt="Next.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"/></picture></a><br/><sub>Next.js</sub></td>
+<td align="center" width="14%"><a href="https://www.typescriptlang.org/"><img height="40" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"/></a><br/><sub>TypeScript</sub></td>
+<td align="center" width="14%"><a href="https://tailwindcss.com"><img height="40" alt="Tailwind" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"/></a><br/><sub>Tailwind</sub></td>
+<td align="center" width="14%"><a href="https://vitejs.dev"><img height="40" alt="Vite" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg"/></a><br/><sub>Vite</sub></td>
+<td align="center" width="14%"><a href="https://redux.js.org"><img height="40" alt="Redux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"/></a><br/><sub>Redux</sub></td>
+<td align="center" width="14%"><a href="https://storybook.js.org"><img height="40" alt="Storybook" src="https://cdn.simpleicons.org/storybook/FF4785"/></a><br/><sub>Storybook</sub></td>
 </tr>
 <tr>
-<td align="center" width="96"><a href="https://vitejs.dev"><img height="40" alt="Vite" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg"/></a><br/><sub>Vite</sub></td>
-<td align="center" width="96"><a href="https://redux.js.org"><img height="40" alt="Redux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"/></a><br/><sub>Redux</sub></td>
-<td align="center" width="96"><a href="https://ethereum.org"><img height="40" alt="Ethereum" src="https://cdn.simpleicons.org/ethereum/8A92B2"/></a><br/><sub>Ethereum</sub></td>
-<td align="center" width="96"><a href="https://soliditylang.org"><img height="40" alt="Solidity" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg"/></a><br/><sub>Solidity</sub></td>
+<td align="center" width="14%"><a href="https://ethereum.org"><img height="40" alt="Ethereum" src="https://cdn.simpleicons.org/ethereum/8A92B2"/></a><br/><sub>Ethereum</sub></td>
+<td align="center" width="14%"><a href="https://soliditylang.org"><img height="40" alt="Solidity" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg"/></a><br/><sub>Solidity</sub></td>
+<td align="center" width="14%"><a href="https://docs.ethers.org/"><img height="40" alt="Ethers.js" src="https://cdn.simpleicons.org/ethers/2535A0"/></a><br/><sub>Ethers.js</sub></td>
+<td align="center" width="14%"><a href="https://viem.sh"><img height="40" alt="Viem" src="https://github.com/wevm.png?size=80"/></a><br/><sub>Viem</sub></td>
+<td align="center" width="14%"><a href="https://wagmi.sh"><img height="40" alt="Wagmi" src="https://cdn.simpleicons.org/wagmi/8A92B2"/></a><br/><sub>Wagmi</sub></td>
+<td align="center" width="14%"><a href="https://book.getfoundry.sh/"><img height="40" alt="Foundry" src="https://github.com/foundry-rs.png?size=80"/></a><br/><sub>Foundry</sub></td>
+<td align="center" width="14%"><a href="https://hardhat.org"><img height="40" alt="Hardhat" src="https://github.com/NomicFoundation.png?size=80"/></a><br/><sub>Hardhat</sub></td>
 </tr>
 <tr>
-<td align="center" width="96"><a href="https://graphql.org"><img height="40" alt="GraphQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"/></a><br/><sub>GraphQL</sub></td>
-<td align="center" width="96"><a href="https://www.apollographql.com"><img height="40" alt="Apollo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apollographql/apollographql-original.svg"/></a><br/><sub>Apollo</sub></td>
-<td align="center" width="96"><a href="https://thegraph.com"><img height="40" alt="The Graph" src="https://github.com/graphprotocol.png?size=80"/></a><br/><sub>The Graph</sub></td>
-<td align="center" width="96"><a href="https://tanstack.com/query"><img height="40" alt="React Query" src="https://cdn.simpleicons.org/reactquery/FF4154"/></a><br/><sub>React Query</sub></td>
+<td align="center" width="14%"><a href="https://graphql.org"><img height="40" alt="GraphQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"/></a><br/><sub>GraphQL</sub></td>
+<td align="center" width="14%"><a href="https://www.apollographql.com"><img height="40" alt="Apollo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apollographql/apollographql-original.svg"/></a><br/><sub>Apollo</sub></td>
+<td align="center" width="14%"><a href="https://thegraph.com"><img height="40" alt="The Graph" src="https://github.com/graphprotocol.png?size=80"/></a><br/><sub>The Graph</sub></td>
+<td align="center" width="14%"><a href="https://tanstack.com/query"><img height="40" alt="React Query" src="https://cdn.simpleicons.org/reactquery/FF4154"/></a><br/><sub>React Query</sub></td>
+<td align="center" width="14%"><a href="https://swr.vercel.app"><img height="40" alt="SWR" src="https://cdn.simpleicons.org/swr/8A92B2"/></a><br/><sub>SWR</sub></td>
+<td align="center" width="14%"><a href="https://ipfs.tech"><img height="40" alt="IPFS" src="https://cdn.simpleicons.org/ipfs/65C2CB"/></a><br/><sub>IPFS</sub></td>
+<td align="center" width="14%"><a href="https://nodejs.org"><img height="40" alt="Node.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/></a><br/><sub>Node.js</sub></td>
 </tr>
 <tr>
-<td align="center" width="96"><a href="https://nodejs.org"><img height="40" alt="Node.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/></a><br/><sub>Node.js</sub></td>
-<td align="center" width="96"><a href="https://pnpm.io"><img height="40" alt="pnpm" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pnpm/pnpm-original.svg"/></a><br/><sub>pnpm</sub></td>
-<td align="center" width="96"><a href="https://vercel.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/vercel/ffffff"/><img height="40" alt="Vercel" src="https://cdn.simpleicons.org/vercel/000000"/></picture></a><br/><sub>Vercel</sub></td>
-<td align="center" width="96"><a href="https://eslint.org"><img height="40" alt="ESLint" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg"/></a><br/><sub>ESLint</sub></td>
-</tr>
-<tr>
-<td align="center" width="96"><a href="https://prettier.io"><img height="40" alt="Prettier" src="https://cdn.simpleicons.org/prettier/F7B93E"/></a><br/><sub>Prettier</sub></td>
-<td align="center" width="96"><a href="https://playwright.dev"><img height="40" alt="Playwright" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg"/></a><br/><sub>Playwright</sub></td>
-<td align="center" width="96"><a href="https://vitest.dev"><img height="40" alt="Vitest" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitest/vitest-original.svg"/></a><br/><sub>Vitest</sub></td>
-<td align="center" width="96"><a href="https://github.com/features/actions"><img height="40" alt="GitHub Actions" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg"/></a><br/><sub>GH&nbsp;Actions</sub></td>
-</tr>
-<tr>
-<td align="center" width="96"><a href="https://docs.ethers.org/"><img height="40" alt="Ethers.js" src="https://cdn.simpleicons.org/ethers/2535A0"/></a><br/><sub>Ethers.js</sub></td>
-<td align="center" width="96"><a href="https://viem.sh"><img height="40" alt="Viem" src="https://github.com/wevm.png?size=80"/></a><br/><sub>Viem</sub></td>
-<td align="center" width="96"><a href="https://wagmi.sh"><img height="40" alt="Wagmi" src="https://cdn.simpleicons.org/wagmi/8A92B2"/></a><br/><sub>Wagmi</sub></td>
-<td align="center" width="96"><a href="https://book.getfoundry.sh/"><img height="40" alt="Foundry" src="https://github.com/foundry-rs.png?size=80"/></a><br/><sub>Foundry</sub></td>
-</tr>
-<tr>
-<td align="center" width="96"><a href="https://hardhat.org"><img height="40" alt="Hardhat" src="https://github.com/NomicFoundation.png?size=80"/></a><br/><sub>Hardhat</sub></td>
-<td align="center" width="96"><a href="https://ipfs.tech"><img height="40" alt="IPFS" src="https://cdn.simpleicons.org/ipfs/65C2CB"/></a><br/><sub>IPFS</sub></td>
-<td align="center" width="96"><a href="https://swr.vercel.app"><img height="40" alt="SWR" src="https://cdn.simpleicons.org/swr/8A92B2"/></a><br/><sub>SWR</sub></td>
-<td align="center" width="96"><a href="https://storybook.js.org"><img height="40" alt="Storybook" src="https://cdn.simpleicons.org/storybook/FF4785"/></a><br/><sub>Storybook</sub></td>
+<td align="center" width="14%"><a href="https://pnpm.io"><img height="40" alt="pnpm" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pnpm/pnpm-original.svg"/></a><br/><sub>pnpm</sub></td>
+<td align="center" width="14%"><a href="https://vercel.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/vercel/ffffff"/><img height="40" alt="Vercel" src="https://cdn.simpleicons.org/vercel/000000"/></picture></a><br/><sub>Vercel</sub></td>
+<td align="center" width="14%"><a href="https://eslint.org"><img height="40" alt="ESLint" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg"/></a><br/><sub>ESLint</sub></td>
+<td align="center" width="14%"><a href="https://prettier.io"><img height="40" alt="Prettier" src="https://cdn.simpleicons.org/prettier/F7B93E"/></a><br/><sub>Prettier</sub></td>
+<td align="center" width="14%"><a href="https://playwright.dev"><img height="40" alt="Playwright" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg"/></a><br/><sub>Playwright</sub></td>
+<td align="center" width="14%"><a href="https://vitest.dev"><img height="40" alt="Vitest" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitest/vitest-original.svg"/></a><br/><sub>Vitest</sub></td>
+<td align="center" width="14%"><a href="https://github.com/features/actions"><img height="40" alt="GitHub Actions" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg"/></a><br/><sub>GH&nbsp;Actions</sub></td>
 </tr>
 </table>
 
