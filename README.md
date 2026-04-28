@@ -18,7 +18,6 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </div>
 
 <h2 align="center">skills</h2>
-<p align="center"><sub><i>color brand marks · click any icon to visit the project</i></sub></p>
 
 <table>
 <tr>
@@ -51,11 +50,11 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <td align="center" width="96"><a href="https://vitest.dev"><img height="40" alt="Vitest" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitest/vitest-original.svg"/></a><br/><sub>Vitest</sub></td>
 <td align="center" width="96"><a href="https://github.com/features/actions"><img height="40" alt="GitHub Actions" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg"/></a><br/><sub>GH&nbsp;Actions</sub></td>
 </tr>
-</table>
-
-<sub><b>also using</b></sub>
-
-<p>
+<tr>
+<td colspan="4" align="center">
+<br/>
+<sub><b>ALSO USING</b></sub>
+<br/><br/>
 <a href="https://docs.ethers.org/" title="Ethers.js"><img height="28" alt="Ethers.js" src="https://cdn.simpleicons.org/ethers/2535A0"/></a>
 &nbsp;&nbsp;
 <a href="https://viem.sh" title="Viem"><img height="28" alt="Viem" src="https://github.com/wevm.png?size=80"/></a>
@@ -71,10 +70,11 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <a href="https://swr.vercel.app" title="SWR"><img height="28" alt="SWR" src="https://cdn.simpleicons.org/swr/8A92B2"/></a>
 &nbsp;&nbsp;
 <a href="https://storybook.js.org" title="Storybook"><img height="28" alt="Storybook" src="https://cdn.simpleicons.org/storybook/FF4785"/></a>
-</p>
+</td>
+</tr>
+</table>
 
 <h2 align="center">open source contributions</h2>
-<p align="center"><sub><i>public-repo PRs grouped by org · click a card to expand</i></sub></p>
 
 <!-- START:ecosystem -->
 <table>
@@ -204,7 +204,6 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <!-- END:ecosystem -->
 
 <h2 align="center">projects</h2>
-<p align="center"><sub><i>auto-pulled from owned non-fork public repos · sorted by latest push</i></sub></p>
 
 <!-- START:projects -->
 | repo | what it does | stack |
