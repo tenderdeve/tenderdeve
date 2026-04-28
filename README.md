@@ -1,68 +1,54 @@
-# Hi there 👋  
+# Hey, I'm TenderDeve 🧩
 
-## Showcasing my experience in Frontend Development  
-A skilled builder focused on creating user-friendly interfaces for decentralized platforms.
-
----
-
-## Tech & Tools  
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/TailwindCSS-0EA5E9?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ethers.js-293462?style=for-the-badge&logo=ethereum&logoColor=white" />
-  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
-  <img src="https://img.shields.io/badge/GraphQL-E434AA?style=for-the-badge&logo=graphql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apollo-311C87?style=for-the-badge&logo=apollographql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</p>
+I build the frontends people use to trade, lend, and manage positions in DeFi.
 
 ---
 
-## Highlights  
-- UI Craftsmanship  
-- Responsive Design  
-- Data Visualization  
-- User Experience Champion  
-- Performance Optimization
+I've designed trading interfaces for perpetual futures DEXs, liquidity dashboards for AMM protocols, and real-time portfolio tracking systems — with a focus on making complex financial data feel intuitive.
+
+My stack: React/Next.js + TypeScript + TailwindCSS, with ethers.js and subgraphs connecting everything to on-chain data. I care about performance, accessibility, and building interfaces traders actually trust with their money.
+
+Currently freelancing — building DeFi frontend infrastructure for protocols that need polished, production-ready trading interfaces.
 
 ---
 
-## Development Areas  
+## 🔨 What I'm Building
 
-### Intuitive UI  
-Meticulously crafted UI elements for price tracking, liquidity pools, and user exposure ensure effortless navigation and information access.  
-Interactive charts provide real-time price and market trend analysis, facilitating informed decision-making.
+| Project | Description | Demo | Stack |
+|---|---|---|---|
+| [defi-dashboard](https://github.com/tenderdeve/defi-dashboard) | Real-time DeFi portfolio tracker — token charts, LP positions, P&L | Soon | Next.js, wagmi |
+| [perp-trading-ui](https://github.com/tenderdeve/perp-trading-ui) | Perpetual futures trading interface — leverage, order book, live PnL | Soon | React, ethers.js |
+| [amm-swap-interface](https://github.com/tenderdeve/amm-swap-interface) | AMM swap + LP management UI — slippage, price impact, tx history | Soon | Next.js, GraphQL |
+| [subgraph-query-kit](https://github.com/tenderdeve/subgraph-query-kit) | TypeScript utilities for querying DeFi subgraphs | — | TypeScript |
+| [web3-auth-kit](https://github.com/tenderdeve/web3-auth-kit) | Drop-in Web3 wallet auth + EIP-712 components for React | — | React, wagmi |
+| [react-performance-patterns](https://github.com/tenderdeve/react-performance-patterns) | Documented React perf patterns with before/after benchmarks | — | React, Next.js |
 
-### Seamless User Interactions  
-Effortless minting, burning, and collateralization actions directly through the user interface.  
-Streamlined interactions optimize position management for a smooth user experience.
+## Stack
 
-### Data Visualization & User Education  
-Enhanced data visualization of financial information fosters clarity and simplifies complex financial concepts for users.  
-Designed to empower users with a deeper understanding of asset-related risks and rewards.
+**Frontend**
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=000)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat&logo=nextdotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-0EA5E9?style=flat&logo=tailwindcss&logoColor=fff)
 
-### Responsive Design & Performance  
-Led the design and development of intuitive, responsive user interfaces that seamlessly adapt to various devices.  
-Engineered a ReactJS and Tailwind CSS-powered portal for effortless interaction with DeFi tools.  
-Reduced page load times by 30% through code splitting and lazy loading, contributing to an overall faster experience.  
-Increased user satisfaction by 20% through continuous platform improvements driven by active feedback analysis.
+**Web3**
+![ethers.js](https://img.shields.io/badge/ethers.js-293462?style=flat&logo=ethereum)
+![viem](https://img.shields.io/badge/viem-1F2937?style=flat)
+![wagmi](https://img.shields.io/badge/wagmi-35495E?style=flat)
+![GraphQL](https://img.shields.io/badge/GraphQL-E434AA?style=flat&logo=graphql&logoColor=fff)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity)
 
----
+**Tools**
+![Vercel](https://img.shields.io/badge/Vercel-000?style=flat&logo=vercel)
+![Apollo](https://img.shields.io/badge/Apollo-311C87?style=flat&logo=apollographql)
+![The Graph](https://img.shields.io/badge/The%20Graph-6747ED?style=flat)
+![React Query](https://img.shields.io/badge/React%20Query-FF4154?style=flat&logo=reactquery&logoColor=fff)
 
-## Technical Stack  
+## Let's Connect
 
-- Frontend: ReactJS, Tailwind CSS  
-- Backend (Smart Contracts): Solidity (with security best practices)  
-- Blockchain Interaction: Ethers.js, Subgraphs  
-- User Authentication (Optional): EIP712 signature types, Web3 wallets (e.g., MetaMask)  
-- Off-Chain Data Management (Optional): Off-chain signature storage/management solutions (specify chosen solution)  
-- Deployment: Vercel CDN  
-- Performance Optimization (v2): Next.js (SSG, SSR), React Query, Apollo GraphQL
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=fff)](https://github.com/tenderdeve)
+[![X](https://img.shields.io/badge/X-000?style=flat&logo=x&logoColor=fff)](https://x.com/tenderdeve)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=fff)](https://www.linkedin.com/in/tenderdeve)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=fff)](mailto:tenderdeve@proton.me)
 
----
-
-## DeFi Expertise  
-- Designed and developed complex DeFi solutions like a derivatives-based AMM and a Perpetual Futures trading system.  
-- Created multiple smart contract projects with a commitment to utilizing the latest blockchain technologies.  
-- Applied UX principles for intuitive and user-friendly interfaces.
+Open to freelance work on DeFi frontends — trading UIs, dashboards, on-chain data viz.
