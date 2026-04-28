@@ -1,0 +1,128 @@
+#!/usr/bin/env bash
+# Refresh dynamic sections in README.md between START/END markers:
+#   <!-- START:projects -->     auto top-N owned non-fork repos as a table
+#   <!-- START:ecosystem -->    external PRs grouped by repo
+#   <!-- START:activity -->     true commit counts (rolling 365d + YTD)
+set -euo pipefail
+
+USER="tenderdeve"
+README="README.md"
+TMPDIR=$(mktemp -d)
+trap 'rm -rf "$TMPDIR"' EXIT
+
+# --- Projects: top 6 non-fork, non-profile public repos sorted by pushed_at ---
+gh api "users/$USER/repos?per_page=100&sort=pushed&type=owner" \
+  | jq -r --arg user "$USER" '
+      [.[] | select(.fork == false and .name != $user and .private == false)][:6]
+      | .[] | "\(.full_name)|\(.html_url)|\((.description // "—") | gsub("\\|"; "\\|"))"' \
+  > "$TMPDIR/repos_meta"
+
+# Resolve "Stack" via /languages endpoint with frontend-first priority + tooling filter.
+# tenderdeve is a DeFi frontend handle, so TS/JS/Solidity rank above systems langs.
+PRIORITY="TypeScript JavaScript Solidity Vyper Move Cairo Rust Go Python Swift Kotlin Java C++ C"
+SKIP_LANGS="HTML CSS SCSS Shell Dockerfile Makefile Procfile MDX Nix HCL Roff Batchfile PowerShell"
+
+resolve_stack() {
+  local repo=$1
+  gh api "repos/$repo/languages" 2>/dev/null \
+    | jq -r --arg priority "$PRIORITY" --arg skip "$SKIP_LANGS" '
+        ($skip | split(" ")) as $skip_arr
+        | ($priority | split(" ")) as $prio_arr
+        | to_entries
+        | map(select(.key as $k | $skip_arr | index($k) | not))
+        | . as $langs
+        | ([$prio_arr[] as $p | $langs[] | select(.key == $p) | .key]
+            + ($langs | sort_by(-.value) | map(.key)))
+        | reduce .[] as $k ([]; if any(.[]; . == $k) then . else . + [$k] end)
+        | .[0:2]
+        | join(", ")
+      '
+}
+
+# Build project table rows
+{
+  echo "| Project | Description | Stack | Status |"
+  echo "| --- | --- | --- | --- |"
+  if [ ! -s "$TMPDIR/repos_meta" ]; then
+    echo "| _No public repos yet — coming soon._ | | | |"
+  else
+    while IFS='|' read -r repo url desc; do
+      stack=$(resolve_stack "$repo")
+      [ -z "$stack" ] && stack="—"
+      name="${repo#*/}"
+      echo "| [$name]($url) | $desc | $stack | Active |"
+    done < "$TMPDIR/repos_meta"
+  fi
+} > "$TMPDIR/projects.md"
+
+# --- Ecosystem: external PRs grouped by repo, with titles + repo links ---
+gh search prs --author="$USER" --limit=100 --json repository,title,url,state \
+  | jq -r --arg user "$USER" '
+      [.[] | select(.repository.nameWithOwner | startswith($user + "/") | not)]
+      | group_by(.repository.nameWithOwner)
+      | map({
+          repo: .[0].repository.nameWithOwner,
+          count: length,
+          prs: [.[] | {
+            num: (.url | split("/") | .[-1]),
+            url: .url,
+            title: .title,
+            state: .state
+          }]
+        })
+      | sort_by(-.count)
+      | map(
+          "<details open>\n"
+          + "<summary><b><a href=\"https://github.com/" + .repo + "\">"
+            + (.repo | gsub("/"; " / "))
+          + "</a></b> &middot; "
+          + (.count | tostring) + " PR" + (if .count > 1 then "s" else "" end)
+          + " &middot; <a href=\"https://github.com/" + .repo + "/pulls?q=author%3A" + $user + "+is%3Apr\">view all →</a>"
+          + "</summary>\n\n"
+          + (.prs | map("- [`#" + .num + "`](" + .url + ") — " + .title) | join("\n"))
+          + "\n\n</details>"
+        )
+      | join("\n\n")' > "$TMPDIR/ecosystem.md"
+
+if [ ! -s "$TMPDIR/ecosystem.md" ]; then
+  echo "_No external PRs yet — drop me a link if you'd like a contribution._" > "$TMPDIR/ecosystem.md"
+fi
+
+# --- Recent Activity: true commit count via parallel bare clones (all branches) ---
+YEAR_NOW=$(date -u +"%Y")
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# count-commits.sh outputs "<rolling_365d> <ytd>" by cloning every owned repo
+# (public + private) with --filter=blob:none and grepping git log across all branches.
+# More accurate than GraphQL contributionsCollection (which inflates ~6x by
+# counting branch-pushes rather than unique commits).
+read -r ROLLING YTD < <(USER_LOGIN="$USER" bash "$SCRIPT_DIR/count-commits.sh")
+
+# Format with thousands separator (locale-independent)
+fmt() { echo "$1" | sed -e :a -e 's/\(.*[0-9]\)\([0-9]\{3\}\)/\1,\2/;ta'; }
+ROLLING_FMT=$(fmt "$ROLLING")
+YTD_FMT=$(fmt "$YTD")
+
+cat > "$TMPDIR/activity.md" <<EOF
+_Unique commits authored across public + private repos, all branches. Auto-refreshed twice daily._
+
+| Window | Commits |
+| --- | --- |
+| Rolling 365 days | **$ROLLING_FMT** |
+| ${YEAR_NOW} year-to-date | **$YTD_FMT** |
+EOF
+
+# --- Splice into README between markers ---
+python3 - "$README" "$TMPDIR" <<'PY'
+import re, sys, pathlib
+readme_path, tmpdir = sys.argv[1], sys.argv[2]
+data = pathlib.Path(readme_path).read_text()
+
+for marker in ("projects", "ecosystem", "activity"):
+    content = pathlib.Path(f"{tmpdir}/{marker}.md").read_text().rstrip()
+    pat = re.compile(rf"(<!-- START:{marker} -->).*?(<!-- END:{marker} -->)", re.DOTALL)
+    data = pat.sub(lambda m: f"{m.group(1)}\n{content}\n{m.group(2)}", data)
+
+pathlib.Path(readme_path).write_text(data)
+print(f"README updated: {readme_path}")
+PY
