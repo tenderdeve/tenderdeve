@@ -25,13 +25,13 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 <tr>
 <td align="center" width="96"><a href="https://vitejs.dev"><img height="40" alt="Vite" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg"/></a><br/><sub>Vite</sub></td>
 <td align="center" width="96"><a href="https://redux.js.org"><img height="40" alt="Redux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"/></a><br/><sub>Redux</sub></td>
-<td align="center" width="96"><a href="https://ethereum.org"><img height="40" alt="Ethereum" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ethereum/ethereum-original.svg"/></a><br/><sub>Ethereum</sub></td>
+<td align="center" width="96"><a href="https://ethereum.org"><img height="40" alt="Ethereum" src="https://cdn.simpleicons.org/ethereum/8A92B2"/></a><br/><sub>Ethereum</sub></td>
 <td align="center" width="96"><a href="https://soliditylang.org"><img height="40" alt="Solidity" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg"/></a><br/><sub>Solidity</sub></td>
 </tr>
 <tr>
 <td align="center" width="96"><a href="https://graphql.org"><img height="40" alt="GraphQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"/></a><br/><sub>GraphQL</sub></td>
 <td align="center" width="96"><a href="https://www.apollographql.com"><img height="40" alt="Apollo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apollographql/apollographql-original.svg"/></a><br/><sub>Apollo</sub></td>
-<td align="center" width="96"><a href="https://thegraph.com"><img height="40" alt="The Graph" src="https://cdn.simpleicons.org/thegraph/6747ED"/></a><br/><sub>The Graph</sub></td>
+<td align="center" width="96"><a href="https://thegraph.com"><img height="40" alt="The Graph" src="https://github.com/graphprotocol.png?size=80"/></a><br/><sub>The Graph</sub></td>
 <td align="center" width="96"><a href="https://tanstack.com/query"><img height="40" alt="React Query" src="https://cdn.simpleicons.org/reactquery/FF4154"/></a><br/><sub>React Query</sub></td>
 </tr>
 <tr>
@@ -48,7 +48,25 @@ I build the frontends people use to trade, lend, and manage positions in DeFi. R
 </tr>
 </table>
 
-<sub>also using: `ethers.js` · `viem` · `wagmi` · `Foundry` · `Hardhat` · `IPFS` · `SWR` · `Storybook`</sub>
+<sub><b>also using</b></sub>
+
+<p>
+<a href="https://docs.ethers.org/" title="Ethers.js"><img height="28" alt="Ethers.js" src="https://cdn.simpleicons.org/ethers/2535A0"/></a>
+&nbsp;&nbsp;
+<a href="https://viem.sh" title="Viem"><img height="28" alt="Viem" src="https://github.com/wevm.png?size=80"/></a>
+&nbsp;&nbsp;
+<a href="https://wagmi.sh" title="Wagmi"><img height="28" alt="Wagmi" src="https://cdn.simpleicons.org/wagmi/8A92B2"/></a>
+&nbsp;&nbsp;
+<a href="https://book.getfoundry.sh/" title="Foundry"><img height="28" alt="Foundry" src="https://github.com/foundry-rs.png?size=80"/></a>
+&nbsp;&nbsp;
+<a href="https://hardhat.org" title="Hardhat"><img height="28" alt="Hardhat" src="https://github.com/NomicFoundation.png?size=80"/></a>
+&nbsp;&nbsp;
+<a href="https://ipfs.tech" title="IPFS"><img height="28" alt="IPFS" src="https://cdn.simpleicons.org/ipfs/65C2CB"/></a>
+&nbsp;&nbsp;
+<a href="https://swr.vercel.app" title="SWR"><img height="28" alt="SWR" src="https://cdn.simpleicons.org/swr/8A92B2"/></a>
+&nbsp;&nbsp;
+<a href="https://storybook.js.org" title="Storybook"><img height="28" alt="Storybook" src="https://cdn.simpleicons.org/storybook/FF4785"/></a>
+</p>
 
 ## projects
 
