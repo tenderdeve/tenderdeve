@@ -51,26 +51,16 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <td align="center" width="96"><a href="https://github.com/features/actions"><img height="40" alt="GitHub Actions" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg"/></a><br/><sub>GH&nbsp;Actions</sub></td>
 </tr>
 <tr>
-<td colspan="4" align="center">
-<br/>
-<sub><b>ALSO USING</b></sub>
-<br/><br/>
-<a href="https://docs.ethers.org/" title="Ethers.js"><img height="28" alt="Ethers.js" src="https://cdn.simpleicons.org/ethers/2535A0"/></a>
-&nbsp;&nbsp;
-<a href="https://viem.sh" title="Viem"><img height="28" alt="Viem" src="https://github.com/wevm.png?size=80"/></a>
-&nbsp;&nbsp;
-<a href="https://wagmi.sh" title="Wagmi"><img height="28" alt="Wagmi" src="https://cdn.simpleicons.org/wagmi/8A92B2"/></a>
-&nbsp;&nbsp;
-<a href="https://book.getfoundry.sh/" title="Foundry"><img height="28" alt="Foundry" src="https://github.com/foundry-rs.png?size=80"/></a>
-&nbsp;&nbsp;
-<a href="https://hardhat.org" title="Hardhat"><img height="28" alt="Hardhat" src="https://github.com/NomicFoundation.png?size=80"/></a>
-&nbsp;&nbsp;
-<a href="https://ipfs.tech" title="IPFS"><img height="28" alt="IPFS" src="https://cdn.simpleicons.org/ipfs/65C2CB"/></a>
-&nbsp;&nbsp;
-<a href="https://swr.vercel.app" title="SWR"><img height="28" alt="SWR" src="https://cdn.simpleicons.org/swr/8A92B2"/></a>
-&nbsp;&nbsp;
-<a href="https://storybook.js.org" title="Storybook"><img height="28" alt="Storybook" src="https://cdn.simpleicons.org/storybook/FF4785"/></a>
-</td>
+<td align="center" width="96"><a href="https://docs.ethers.org/"><img height="40" alt="Ethers.js" src="https://cdn.simpleicons.org/ethers/2535A0"/></a><br/><sub>Ethers.js</sub></td>
+<td align="center" width="96"><a href="https://viem.sh"><img height="40" alt="Viem" src="https://github.com/wevm.png?size=80"/></a><br/><sub>Viem</sub></td>
+<td align="center" width="96"><a href="https://wagmi.sh"><img height="40" alt="Wagmi" src="https://cdn.simpleicons.org/wagmi/8A92B2"/></a><br/><sub>Wagmi</sub></td>
+<td align="center" width="96"><a href="https://book.getfoundry.sh/"><img height="40" alt="Foundry" src="https://github.com/foundry-rs.png?size=80"/></a><br/><sub>Foundry</sub></td>
+</tr>
+<tr>
+<td align="center" width="96"><a href="https://hardhat.org"><img height="40" alt="Hardhat" src="https://github.com/NomicFoundation.png?size=80"/></a><br/><sub>Hardhat</sub></td>
+<td align="center" width="96"><a href="https://ipfs.tech"><img height="40" alt="IPFS" src="https://cdn.simpleicons.org/ipfs/65C2CB"/></a><br/><sub>IPFS</sub></td>
+<td align="center" width="96"><a href="https://swr.vercel.app"><img height="40" alt="SWR" src="https://cdn.simpleicons.org/swr/8A92B2"/></a><br/><sub>SWR</sub></td>
+<td align="center" width="96"><a href="https://storybook.js.org"><img height="40" alt="Storybook" src="https://cdn.simpleicons.org/storybook/FF4785"/></a><br/><sub>Storybook</sub></td>
 </tr>
 </table>
 
