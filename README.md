@@ -215,15 +215,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <h2 align="center">reach</h2>
 
 <p align="center">
-<a href="https://github.com/tenderdeve">github</a>
-&nbsp;·&nbsp;
-<a href="https://x.com/tenderdeve">x</a>
-&nbsp;·&nbsp;
-<a href="https://www.linkedin.com/in/tenderdeve">linkedin</a>
-&nbsp;·&nbsp;
-<a href="mailto:tenderdeve@proton.me">email</a>
-&nbsp;·&nbsp;
-<a href="https://github.com/sponsors/tenderdeve">sponsor</a>
+<a href="https://github.com/tenderdeve">github.com/tenderdeve</a>
 </p>
 
 <p align="center"><sub>open to freelance — DeFi frontend infra, trading UIs, on-chain data viz.</sub></p>
