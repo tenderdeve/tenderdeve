@@ -46,8 +46,13 @@ jq -r --rawfile pubs "$TMPDIR/public_repos" --arg user "$USER" '
     ($pubs | split("\n") | map(select(length > 0))) as $allowed
     | map(select(.repo as $r | $allowed | any(. == $r)))
     | map(
-        "<details open>\n"
-        + "<summary><b><a href=\"https://github.com/" + .repo + "\">"
+        (.repo | split("/")[0]) as $owner
+        | "<details open>\n"
+        + "<summary>"
+        + "<img src=\"https://github.com/" + $owner + ".png?size=40\" "
+          + "width=\"20\" height=\"20\" align=\"top\" "
+          + "alt=\"" + $owner + "\" />"
+        + "&nbsp; <b><a href=\"https://github.com/" + .repo + "\">"
           + .repo
         + "</a></b> &middot; "
         + (.count | tostring) + " PR" + (if .count > 1 then "s" else "" end)
