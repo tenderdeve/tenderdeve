@@ -1,30 +1,30 @@
-<table align="right">
-<tr><td valign="top">
+<div align="right">
 
-<a href="https://react.dev" title="React"><img alt="React" height="32" src="https://cdn.simpleicons.org/react/61DAFB"/></a>
+<a href="https://react.dev" title="React"><img alt="React" height="28" src="https://cdn.simpleicons.org/react/61DAFB"/></a>
 &nbsp;
-<a href="https://nextjs.org" title="Next.js"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/nextdotjs/ffffff"/><img alt="Next.js" height="32" src="https://cdn.simpleicons.org/nextdotjs/000000"/></picture></a>
+<a href="https://nextjs.org" title="Next.js"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/nextdotjs/ffffff"/><img alt="Next.js" height="28" src="https://cdn.simpleicons.org/nextdotjs/000000"/></picture></a>
 &nbsp;
-<a href="https://www.typescriptlang.org/" title="TypeScript"><img alt="TypeScript" height="32" src="https://cdn.simpleicons.org/typescript/3178C6"/></a>
+<a href="https://www.typescriptlang.org/" title="TypeScript"><img alt="TypeScript" height="28" src="https://cdn.simpleicons.org/typescript/3178C6"/></a>
 &nbsp;
-<a href="https://tailwindcss.com" title="Tailwind CSS"><img alt="Tailwind" height="32" src="https://cdn.simpleicons.org/tailwindcss/06B6D4"/></a>
+<a href="https://tailwindcss.com" title="Tailwind CSS"><img alt="Tailwind" height="28" src="https://cdn.simpleicons.org/tailwindcss/06B6D4"/></a>
 &nbsp;
-<a href="https://ethereum.org" title="Ethereum"><img alt="Ethereum" height="32" src="https://cdn.simpleicons.org/ethereum/8A92B2"/></a>
+<a href="https://ethereum.org" title="Ethereum"><img alt="Ethereum" height="28" src="https://cdn.simpleicons.org/ethereum/8A92B2"/></a>
 &nbsp;
-<a href="https://graphql.org" title="GraphQL"><img alt="GraphQL" height="32" src="https://cdn.simpleicons.org/graphql/E10098"/></a>
+<a href="https://graphql.org" title="GraphQL"><img alt="GraphQL" height="28" src="https://cdn.simpleicons.org/graphql/E10098"/></a>
 &nbsp;
-<a href="https://thegraph.com" title="The Graph"><img alt="The Graph" height="32" src="https://cdn.simpleicons.org/thegraph/6747ED"/></a>
+<a href="https://thegraph.com" title="The Graph"><img alt="The Graph" height="28" src="https://cdn.simpleicons.org/thegraph/6747ED"/></a>
 &nbsp;
-<a href="https://vercel.com" title="Vercel"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/vercel/ffffff"/><img alt="Vercel" height="32" src="https://cdn.simpleicons.org/vercel/000000"/></picture></a>
+<a href="https://vercel.com" title="Vercel"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/vercel/ffffff"/><img alt="Vercel" height="28" src="https://cdn.simpleicons.org/vercel/000000"/></picture></a>
 
-</td></tr>
-</table>
+</div>
 
 # tenderdeve
 
 _DeFi frontend engineer — trading UIs, liquidity dashboards, on-chain data viz._
 
-```
+I build the frontends people use to trade, lend, and manage positions in DeFi. React / Next.js + TypeScript + Tailwind, with ethers.js + wagmi + subgraphs underneath. I care about performance, accessibility, and numbers traders trust with real money.
+
+```text
 ┌─ now ─────────────────────────────────────────────┐
 │  building     perp-trading-ui                     │
 │  available    yes — freelance                     │
@@ -32,8 +32,6 @@ _DeFi frontend engineer — trading UIs, liquidity dashboards, on-chain data viz
 │  reach        @tenderdeve                         │
 └───────────────────────────────────────────────────┘
 ```
-
-I build the frontends people use to trade, lend, and manage positions in DeFi. React / Next.js + TypeScript + Tailwind, with ethers.js + wagmi + subgraphs underneath. I care about performance, accessibility, and numbers traders trust with real money.
 
 ## projects
 
