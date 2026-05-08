@@ -69,6 +69,20 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <tr><td valign="top" align="center" width="50%">
 
 <details>
+<summary><img src="https://github.com/wevm.png?size=40" width="20" height="20" align="top" alt="wevm" /> <b><a href="https://github.com/wevm/viem">wevm/viem</a></b> &middot; 6 PRs &middot; <a href="https://github.com/wevm/viem/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/wevm/viem/pull/4582"><code>#4582</code></a> — fix(abi): handle anonymous events in encodeEventTopics</li>
+<li><a href="https://github.com/wevm/viem/pull/4581"><code>#4581</code></a> — fix: clean up empty listener cache entries in observe</li>
+<li><a href="https://github.com/wevm/viem/pull/4576"><code>#4576</code></a> — fix: handle anonymous events in encodeEventTopics</li>
+<li><a href="https://github.com/wevm/viem/pull/4569"><code>#4569</code></a> — fix: remove stale cache entries when last observer unsubscribes</li>
+<li><a href="https://github.com/wevm/viem/pull/4554"><code>#4554</code></a> — feat: support anonymous events in encodeEventTopics</li>
+<li><a href="https://github.com/wevm/viem/pull/4553"><code>#4553</code></a> — fix: clean up listenersCache and cleanupCache when last observer unsubscribes</li>
+</ul>
+</details>
+
+</td><td valign="top" align="center" width="50%">
+
+<details>
 <summary><img src="https://github.com/daaoai.png?size=40" width="20" height="20" align="top" alt="daaoai" /> <b><a href="https://github.com/daaoai/dex">daaoai/dex</a></b> &middot; 5 PRs &middot; <a href="https://github.com/daaoai/dex/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/daaoai/dex/pull/7"><code>#7</code></a> — fix: eslint any bypass</li>
@@ -79,34 +93,48 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/NomicFoundation.png?size=40" width="20" height="20" align="top" alt="NomicFoundation" /> <b><a href="https://github.com/NomicFoundation/hardhat">NomicFoundation/hardhat</a></b> &middot; 2 PRs &middot; <a href="https://github.com/NomicFoundation/hardhat/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/NomicFoundation.png?size=40" width="20" height="20" align="top" alt="NomicFoundation" /> <b><a href="https://github.com/NomicFoundation/hardhat">NomicFoundation/hardhat</a></b> &middot; 3 PRs &middot; <a href="https://github.com/NomicFoundation/hardhat/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/NomicFoundation/hardhat/pull/8234"><code>#8234</code></a> — feat: add per-cheatcode suggestions for unsupported cheatcodes</li>
 <li><a href="https://github.com/NomicFoundation/hardhat/pull/8201"><code>#8201</code></a> — perf: lazy-load heavy dependencies in hardhat-utils</li>
 <li><a href="https://github.com/NomicFoundation/hardhat/pull/8200"><code>#8200</code></a> — chore: drop beta references from init process and templates</li>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/family.png?size=40" width="20" height="20" align="top" alt="family" /> <b><a href="https://github.com/family/connectkit">family/connectkit</a></b> &middot; 2 PRs &middot; <a href="https://github.com/family/connectkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/family.png?size=40" width="20" height="20" align="top" alt="family" /> <b><a href="https://github.com/family/connectkit">family/connectkit</a></b> &middot; 3 PRs &middot; <a href="https://github.com/family/connectkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/family/connectkit/pull/509"><code>#509</code></a> — fix: disable storage on ENS fallback config</li>
 <li><a href="https://github.com/family/connectkit/pull/508"><code>#508</code></a> — fix: add Base to default chains so its icon renders out of the box</li>
 <li><a href="https://github.com/family/connectkit/pull/507"><code>#507</code></a> — fix: deduplicate injected connector when EIP-6963 wallet is detected</li>
 </ul>
 </details>
 
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
+
+<details>
+<summary><img src="https://github.com/near.png?size=40" width="20" height="20" align="top" alt="near" /> <b><a href="https://github.com/near/near-sdk-js">near/near-sdk-js</a></b> &middot; 3 PRs &middot; <a href="https://github.com/near/near-sdk-js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/near/near-sdk-js/pull/429"><code>#429</code></a> — fix: return strings from NFT enumeration supply methods</li>
+<li><a href="https://github.com/near/near-sdk-js/pull/428"><code>#428</code></a> — fix: add missing ft_metadata view function to fungible token example</li>
+<li><a href="https://github.com/near/near-sdk-js/pull/427"><code>#427</code></a> — docs: add CLI usage example for building and deploying contracts</li>
+</ul>
+</details>
+
 </td><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/near.png?size=40" width="20" height="20" align="top" alt="near" /> <b><a href="https://github.com/near/near-sdk-js">near/near-sdk-js</a></b> &middot; 2 PRs &middot; <a href="https://github.com/near/near-sdk-js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/MetaMask.png?size=40" width="20" height="20" align="top" alt="MetaMask" /> <b><a href="https://github.com/MetaMask/metamask-extension">MetaMask/metamask-extension</a></b> &middot; 2 PRs &middot; <a href="https://github.com/MetaMask/metamask-extension/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
-<li><a href="https://github.com/near/near-sdk-js/pull/428"><code>#428</code></a> — fix: add missing ft_metadata view function to fungible token example</li>
-<li><a href="https://github.com/near/near-sdk-js/pull/427"><code>#427</code></a> — docs: add CLI usage example for building and deploying contracts</li>
+<li><a href="https://github.com/MetaMask/metamask-extension/pull/42320"><code>#42320</code></a> — docs: replace outdated IRC link with Mozilla Matrix channel</li>
+<li><a href="https://github.com/MetaMask/metamask-extension/pull/42188"><code>#42188</code></a> — docs: replace outdated IRC link with Mozilla Matrix channel</li>
 </ul>
 </details>
 
@@ -114,19 +142,20 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/wevm.png?size=40" width="20" height="20" align="top" alt="wevm" /> <b><a href="https://github.com/wevm/viem">wevm/viem</a></b> &middot; 2 PRs &middot; <a href="https://github.com/wevm/viem/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 2 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
-<li><a href="https://github.com/wevm/viem/pull/4554"><code>#4554</code></a> — feat: support anonymous events in encodeEventTopics</li>
-<li><a href="https://github.com/wevm/viem/pull/4553"><code>#4553</code></a> — fix: clean up listenersCache and cleanupCache when last observer unsubscribes</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7465"><code>#7465</code></a> — fix(trade): preserve URL recipient when chainId initializes</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7464"><code>#7464</code></a> — fix(swap): hide MetaMask version warning on mobile browsers</li>
 </ul>
 </details>
 
 </td><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/MetaMask.png?size=40" width="20" height="20" align="top" alt="MetaMask" /> <b><a href="https://github.com/MetaMask/metamask-extension">MetaMask/metamask-extension</a></b> &middot; 1 PR &middot; <a href="https://github.com/MetaMask/metamask-extension/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/ethers-io.png?size=40" width="20" height="20" align="top" alt="ethers-io" /> <b><a href="https://github.com/ethers-io/ethers.js">ethers-io/ethers.js</a></b> &middot; 2 PRs &middot; <a href="https://github.com/ethers-io/ethers.js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
-<li><a href="https://github.com/MetaMask/metamask-extension/pull/42188"><code>#42188</code></a> — docs: replace outdated IRC link with Mozilla Matrix channel</li>
+<li><a href="https://github.com/ethers-io/ethers.js/pull/5135"><code>#5135</code></a> — Add configurable timeout for CCIP-read fetch requests</li>
+<li><a href="https://github.com/ethers-io/ethers.js/pull/5132"><code>#5132</code></a> — fix: defer subscriber teardown in emit to prevent WebSocket subscription loss</li>
 </ul>
 </details>
 
@@ -143,9 +172,9 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </td><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/ensdomains.png?size=40" width="20" height="20" align="top" alt="ensdomains" /> <b><a href="https://github.com/ensdomains/ens-app-v3">ensdomains/ens-app-v3</a></b> &middot; 1 PR &middot; <a href="https://github.com/ensdomains/ens-app-v3/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/Uniswap.png?size=40" width="20" height="20" align="top" alt="Uniswap" /> <b><a href="https://github.com/Uniswap/interface">Uniswap/interface</a></b> &middot; 1 PR &middot; <a href="https://github.com/Uniswap/interface/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
-<li><a href="https://github.com/ensdomains/ens-app-v3/pull/1125"><code>#1125</code></a> — fix: use calendar-aware year calculation in renew modal to prevent infinite loop</li>
+<li><a href="https://github.com/Uniswap/interface/pull/8025"><code>#8025</code></a> — fix: prevent SecurityError from external hash fragments on landing page</li>
 </ul>
 </details>
 
@@ -153,13 +182,23 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/ethers-io.png?size=40" width="20" height="20" align="top" alt="ethers-io" /> <b><a href="https://github.com/ethers-io/ethers.js">ethers-io/ethers.js</a></b> &middot; 1 PR &middot; <a href="https://github.com/ethers-io/ethers.js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/ensdomains.png?size=40" width="20" height="20" align="top" alt="ensdomains" /> <b><a href="https://github.com/ensdomains/ens-app-v3">ensdomains/ens-app-v3</a></b> &middot; 1 PR &middot; <a href="https://github.com/ensdomains/ens-app-v3/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
-<li><a href="https://github.com/ethers-io/ethers.js/pull/5132"><code>#5132</code></a> — fix: defer subscriber teardown in emit to prevent WebSocket subscription loss</li>
+<li><a href="https://github.com/ensdomains/ens-app-v3/pull/1125"><code>#1125</code></a> — fix: use calendar-aware year calculation in renew modal to prevent infinite loop</li>
 </ul>
 </details>
 
 </td><td valign="top" align="center" width="50%">
+
+<details>
+<summary><img src="https://github.com/ethereum.png?size=40" width="20" height="20" align="top" alt="ethereum" /> <b><a href="https://github.com/ethereum/go-ethereum">ethereum/go-ethereum</a></b> &middot; 1 PR &middot; <a href="https://github.com/ethereum/go-ethereum/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/ethereum/go-ethereum/pull/34868"><code>#34868</code></a> — accounts/abi/bind: re-export event signature mismatch errors</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ponder-sh.png?size=40" width="20" height="20" align="top" alt="ponder-sh" /> <b><a href="https://github.com/ponder-sh/ponder">ponder-sh/ponder</a></b> &middot; 1 PR &middot; <a href="https://github.com/ponder-sh/ponder/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -168,8 +207,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/remix-project-org.png?size=40" width="20" height="20" align="top" alt="remix-project-org" /> <b><a href="https://github.com/remix-project-org/remix-project">remix-project-org/remix-project</a></b> &middot; 1 PR &middot; <a href="https://github.com/remix-project-org/remix-project/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -178,7 +216,8 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/solana-foundation.png?size=40" width="20" height="20" align="top" alt="solana-foundation" /> <b><a href="https://github.com/solana-foundation/anchor">solana-foundation/anchor</a></b> &middot; 1 PR &middot; <a href="https://github.com/solana-foundation/anchor/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -187,7 +226,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td></tr>
+</td><td valign="top" align="center" width="50%"></td></tr>
 </table>
 <!-- END:ecosystem -->
 
@@ -200,11 +239,20 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <tr>
 <td valign="top" align="center" width="50%">
 
+<h3><a href="https://github.com/tenderdeve/crypto-will">crypto-will</a></h3>
+<sub>Dead man's switch for crypto wallets — create wills, monthly alive checks, auto-transfer on inactivity</sub><br/><br/>
+<sub><code>TypeScript</code>&nbsp;&nbsp;<code>JavaScript</code></sub>
+
+</td>
+<td valign="top" align="center" width="50%">
+
 <h3><a href="https://github.com/tenderdeve/defi-dashboard">defi-dashboard</a></h3>
 <sub>Real-time DeFi portfolio dashboard — token prices, LP positions, P&L tracking — Next.js + wagmi + TailwindCSS</sub><br/><br/>
 <sub><code>TypeScript</code>&nbsp;&nbsp;<code>JavaScript</code></sub>
 
 </td>
+</tr>
+<tr>
 <td valign="top" align="center" width="50%">
 
 <h3><a href="https://github.com/tenderdeve/wallet-profiler">wallet-profiler</a></h3>
@@ -212,6 +260,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <sub><code>JavaScript</code></sub>
 
 </td>
+<td valign="top" align="center" width="50%"></td>
 </tr>
 </table>
 <!-- END:projects -->
