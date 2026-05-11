@@ -191,14 +191,23 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </td><td valign="top" align="center" width="50%">
 
 <details>
+<summary><img src="https://github.com/ethereum.png?size=40" width="20" height="20" align="top" alt="ethereum" /> <b><a href="https://github.com/ethereum/ethereum-org-website">ethereum/ethereum-org-website</a></b> &middot; 1 PR &middot; <a href="https://github.com/ethereum/ethereum-org-website/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/ethereum/ethereum-org-website/pull/18164"><code>#18164</code></a> — fix: remove dead molochdao.com link that redirects to spam</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
+
+<details>
 <summary><img src="https://github.com/ethereum.png?size=40" width="20" height="20" align="top" alt="ethereum" /> <b><a href="https://github.com/ethereum/go-ethereum">ethereum/go-ethereum</a></b> &middot; 1 PR &middot; <a href="https://github.com/ethereum/go-ethereum/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/ethereum/go-ethereum/pull/34868"><code>#34868</code></a> — accounts/abi/bind: re-export event signature mismatch errors</li>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ponder-sh.png?size=40" width="20" height="20" align="top" alt="ponder-sh" /> <b><a href="https://github.com/ponder-sh/ponder">ponder-sh/ponder</a></b> &middot; 1 PR &middot; <a href="https://github.com/ponder-sh/ponder/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -207,7 +216,8 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/rainbow-me.png?size=40" width="20" height="20" align="top" alt="rainbow-me" /> <b><a href="https://github.com/rainbow-me/rainbowkit">rainbow-me/rainbowkit</a></b> &middot; 1 PR &middot; <a href="https://github.com/rainbow-me/rainbowkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -216,8 +226,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/remix-project-org.png?size=40" width="20" height="20" align="top" alt="remix-project-org" /> <b><a href="https://github.com/remix-project-org/remix-project">remix-project-org/remix-project</a></b> &middot; 1 PR &middot; <a href="https://github.com/remix-project-org/remix-project/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -226,7 +235,8 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/solana-foundation.png?size=40" width="20" height="20" align="top" alt="solana-foundation" /> <b><a href="https://github.com/solana-foundation/anchor">solana-foundation/anchor</a></b> &middot; 1 PR &middot; <a href="https://github.com/solana-foundation/anchor/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -235,7 +245,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td></tr>
+</td><td valign="top" align="center" width="50%"></td></tr>
 </table>
 <!-- END:ecosystem -->
 
