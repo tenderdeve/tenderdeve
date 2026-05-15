@@ -210,14 +210,23 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </td><td valign="top" align="center" width="50%">
 
 <details>
+<summary><img src="https://github.com/otter-sec.png?size=40" width="20" height="20" align="top" alt="otter-sec" /> <b><a href="https://github.com/otter-sec/anchor">otter-sec/anchor</a></b> &middot; 1 PR &middot; <a href="https://github.com/otter-sec/anchor/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/otter-sec/anchor/pull/4479"><code>#4479</code></a> — docs: add surfpool configuration reference to Anchor.toml docs</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
+
+<details>
 <summary><img src="https://github.com/ponder-sh.png?size=40" width="20" height="20" align="top" alt="ponder-sh" /> <b><a href="https://github.com/ponder-sh/ponder">ponder-sh/ponder</a></b> &middot; 1 PR &middot; <a href="https://github.com/ponder-sh/ponder/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/ponder-sh/ponder/pull/2299"><code>#2299</code></a> — fix: include public schema in PGLite search_path for raw SQL queries</li>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/rainbow-me.png?size=40" width="20" height="20" align="top" alt="rainbow-me" /> <b><a href="https://github.com/rainbow-me/rainbowkit">rainbow-me/rainbowkit</a></b> &middot; 1 PR &middot; <a href="https://github.com/rainbow-me/rainbowkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -226,22 +235,13 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/remix-project-org.png?size=40" width="20" height="20" align="top" alt="remix-project-org" /> <b><a href="https://github.com/remix-project-org/remix-project">remix-project-org/remix-project</a></b> &middot; 1 PR &middot; <a href="https://github.com/remix-project-org/remix-project/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/remix-project-org/remix-project/pull/7147"><code>#7147</code></a> — fix: default deployed contract functions to expanded state</li>
-</ul>
-</details>
-
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
-
-<details>
-<summary><img src="https://github.com/solana-foundation.png?size=40" width="20" height="20" align="top" alt="solana-foundation" /> <b><a href="https://github.com/solana-foundation/anchor">solana-foundation/anchor</a></b> &middot; 1 PR &middot; <a href="https://github.com/solana-foundation/anchor/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-<ul>
-<li><a href="https://github.com/solana-foundation/anchor/pull/4479"><code>#4479</code></a> — docs: add surfpool configuration reference to Anchor.toml docs</li>
 </ul>
 </details>
 
