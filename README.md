@@ -295,7 +295,11 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <p align="center"><strong>· · ·&nbsp;&nbsp;&nbsp;REACH&nbsp;&nbsp;&nbsp;· · ·</strong></p>
 
 <p align="center">
-<a href="https://github.com/tenderdeve">github.com/tenderdeve</a>
+<a href="https://www.linkedin.com/in/manmit-singh-3072ab342/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white"/></a>
+&nbsp;
+<a href="https://t.me/Genisis0x"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white"/></a>
+&nbsp;
+<a href="mailto:manmits350@gmail.com"><img alt="Email" src="https://img.shields.io/badge/manmits350%40gmail.com-EA4335?logo=gmail&logoColor=white"/></a>
 </p>
 
 <p align="center"><sub>open to freelance — DeFi frontend infra, trading UIs, on-chain data viz.</sub></p>
