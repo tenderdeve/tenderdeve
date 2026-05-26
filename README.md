@@ -97,6 +97,17 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <tr><td valign="top" align="center" width="50%">
 
 <details>
+<summary><img src="https://github.com/MetaMask.png?size=40" width="20" height="20" align="top" alt="MetaMask" /> <b><a href="https://github.com/MetaMask/metamask-extension">MetaMask/metamask-extension</a></b> &middot; 3 PRs &middot; <a href="https://github.com/MetaMask/metamask-extension/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/MetaMask/metamask-extension/pull/42936"><code>#42936</code></a> — fix: align warning icon inline with estimated changes row label</li>
+<li><a href="https://github.com/MetaMask/metamask-extension/pull/42320"><code>#42320</code></a> — docs: replace outdated IRC link with Mozilla Matrix channel</li>
+<li><a href="https://github.com/MetaMask/metamask-extension/pull/42188"><code>#42188</code></a> — docs: replace outdated IRC link with Mozilla Matrix channel</li>
+</ul>
+</details>
+
+</td><td valign="top" align="center" width="50%">
+
+<details>
 <summary><img src="https://github.com/NomicFoundation.png?size=40" width="20" height="20" align="top" alt="NomicFoundation" /> <b><a href="https://github.com/NomicFoundation/hardhat">NomicFoundation/hardhat</a></b> &middot; 3 PRs &middot; <a href="https://github.com/NomicFoundation/hardhat/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/NomicFoundation/hardhat/pull/8234"><code>#8234</code></a> — feat: add per-cheatcode suggestions for unsupported cheatcodes</li>
@@ -105,7 +116,8 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/family.png?size=40" width="20" height="20" align="top" alt="family" /> <b><a href="https://github.com/family/connectkit">family/connectkit</a></b> &middot; 3 PRs &middot; <a href="https://github.com/family/connectkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -116,8 +128,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/near.png?size=40" width="20" height="20" align="top" alt="near" /> <b><a href="https://github.com/near/near-sdk-js">near/near-sdk-js</a></b> &middot; 3 PRs &middot; <a href="https://github.com/near/near-sdk-js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -125,16 +136,6 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <li><a href="https://github.com/near/near-sdk-js/pull/429"><code>#429</code></a> — fix: return strings from NFT enumeration supply methods</li>
 <li><a href="https://github.com/near/near-sdk-js/pull/428"><code>#428</code></a> — fix: add missing ft_metadata view function to fungible token example</li>
 <li><a href="https://github.com/near/near-sdk-js/pull/427"><code>#427</code></a> — docs: add CLI usage example for building and deploying contracts</li>
-</ul>
-</details>
-
-</td><td valign="top" align="center" width="50%">
-
-<details>
-<summary><img src="https://github.com/MetaMask.png?size=40" width="20" height="20" align="top" alt="MetaMask" /> <b><a href="https://github.com/MetaMask/metamask-extension">MetaMask/metamask-extension</a></b> &middot; 2 PRs &middot; <a href="https://github.com/MetaMask/metamask-extension/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-<ul>
-<li><a href="https://github.com/MetaMask/metamask-extension/pull/42320"><code>#42320</code></a> — docs: replace outdated IRC link with Mozilla Matrix channel</li>
-<li><a href="https://github.com/MetaMask/metamask-extension/pull/42188"><code>#42188</code></a> — docs: replace outdated IRC link with Mozilla Matrix channel</li>
 </ul>
 </details>
 
@@ -210,14 +211,23 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </td><td valign="top" align="center" width="50%">
 
 <details>
+<summary><img src="https://github.com/firecrawl.png?size=40" width="20" height="20" align="top" alt="firecrawl" /> <b><a href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a></b> &middot; 1 PR &middot; <a href="https://github.com/firecrawl/firecrawl/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/firecrawl/firecrawl/pull/3615"><code>#3615</code></a> — fix(api/scrape-worker): skip per-URL webhook on crawl cancellation</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
+
+<details>
 <summary><img src="https://github.com/otter-sec.png?size=40" width="20" height="20" align="top" alt="otter-sec" /> <b><a href="https://github.com/otter-sec/anchor">otter-sec/anchor</a></b> &middot; 1 PR &middot; <a href="https://github.com/otter-sec/anchor/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/otter-sec/anchor/pull/4479"><code>#4479</code></a> — docs: add surfpool configuration reference to Anchor.toml docs</li>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ponder-sh.png?size=40" width="20" height="20" align="top" alt="ponder-sh" /> <b><a href="https://github.com/ponder-sh/ponder">ponder-sh/ponder</a></b> &middot; 1 PR &middot; <a href="https://github.com/ponder-sh/ponder/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -226,7 +236,8 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/rainbow-me.png?size=40" width="20" height="20" align="top" alt="rainbow-me" /> <b><a href="https://github.com/rainbow-me/rainbowkit">rainbow-me/rainbowkit</a></b> &middot; 1 PR &middot; <a href="https://github.com/rainbow-me/rainbowkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -235,8 +246,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/remix-project-org.png?size=40" width="20" height="20" align="top" alt="remix-project-org" /> <b><a href="https://github.com/remix-project-org/remix-project">remix-project-org/remix-project</a></b> &middot; 1 PR &middot; <a href="https://github.com/remix-project-org/remix-project/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -245,7 +255,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%"></td></tr>
+</td></tr>
 </table>
 <!-- END:ecosystem -->
 
