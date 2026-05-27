@@ -97,8 +97,9 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/MetaMask.png?size=40" width="20" height="20" align="top" alt="MetaMask" /> <b><a href="https://github.com/MetaMask/metamask-extension">MetaMask/metamask-extension</a></b> &middot; 3 PRs &middot; <a href="https://github.com/MetaMask/metamask-extension/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/MetaMask.png?size=40" width="20" height="20" align="top" alt="MetaMask" /> <b><a href="https://github.com/MetaMask/metamask-extension">MetaMask/metamask-extension</a></b> &middot; 4 PRs &middot; <a href="https://github.com/MetaMask/metamask-extension/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/MetaMask/metamask-extension/pull/42963"><code>#42963</code></a> — fix: replace broken Learn more URL in Added Protection row</li>
 <li><a href="https://github.com/MetaMask/metamask-extension/pull/42936"><code>#42936</code></a> — fix: align warning icon inline with estimated changes row label</li>
 <li><a href="https://github.com/MetaMask/metamask-extension/pull/42320"><code>#42320</code></a> — docs: replace outdated IRC link with Mozilla Matrix channel</li>
 <li><a href="https://github.com/MetaMask/metamask-extension/pull/42188"><code>#42188</code></a> — docs: replace outdated IRC link with Mozilla Matrix channel</li>
