@@ -154,6 +154,17 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </td><td valign="top" align="center" width="50%">
 
 <details>
+<summary><img src="https://github.com/ethereum.png?size=40" width="20" height="20" align="top" alt="ethereum" /> <b><a href="https://github.com/ethereum/ethereum-org-website">ethereum/ethereum-org-website</a></b> &middot; 2 PRs &middot; <a href="https://github.com/ethereum/ethereum-org-website/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/ethereum/ethereum-org-website/pull/18308"><code>#18308</code></a> — fix: rename /latest/feed.xml route to /latest/feed to break redirect loop</li>
+<li><a href="https://github.com/ethereum/ethereum-org-website/pull/18164"><code>#18164</code></a> — fix: remove dead molochdao.com link that redirects to spam</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
+
+<details>
 <summary><img src="https://github.com/ethers-io.png?size=40" width="20" height="20" align="top" alt="ethers-io" /> <b><a href="https://github.com/ethers-io/ethers.js">ethers-io/ethers.js</a></b> &middot; 2 PRs &middot; <a href="https://github.com/ethers-io/ethers.js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/ethers-io/ethers.js/pull/5135"><code>#5135</code></a> — Add configurable timeout for CCIP-read fetch requests</li>
@@ -161,8 +172,7 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/OffchainLabs.png?size=40" width="20" height="20" align="top" alt="OffchainLabs" /> <b><a href="https://github.com/OffchainLabs/nitro">OffchainLabs/nitro</a></b> &middot; 1 PR &middot; <a href="https://github.com/OffchainLabs/nitro/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -171,7 +181,8 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/Uniswap.png?size=40" width="20" height="20" align="top" alt="Uniswap" /> <b><a href="https://github.com/Uniswap/interface">Uniswap/interface</a></b> &middot; 1 PR &middot; <a href="https://github.com/Uniswap/interface/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -180,22 +191,12 @@ I care about performance, accessibility, and numbers traders trust with real mon
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ensdomains.png?size=40" width="20" height="20" align="top" alt="ensdomains" /> <b><a href="https://github.com/ensdomains/ens-app-v3">ensdomains/ens-app-v3</a></b> &middot; 1 PR &middot; <a href="https://github.com/ensdomains/ens-app-v3/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/ensdomains/ens-app-v3/pull/1125"><code>#1125</code></a> — fix: use calendar-aware year calculation in renew modal to prevent infinite loop</li>
-</ul>
-</details>
-
-</td><td valign="top" align="center" width="50%">
-
-<details>
-<summary><img src="https://github.com/ethereum.png?size=40" width="20" height="20" align="top" alt="ethereum" /> <b><a href="https://github.com/ethereum/ethereum-org-website">ethereum/ethereum-org-website</a></b> &middot; 1 PR &middot; <a href="https://github.com/ethereum/ethereum-org-website/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-<ul>
-<li><a href="https://github.com/ethereum/ethereum-org-website/pull/18164"><code>#18164</code></a> — fix: remove dead molochdao.com link that redirects to spam</li>
 </ul>
 </details>
 
