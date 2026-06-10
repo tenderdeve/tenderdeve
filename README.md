@@ -7,12 +7,12 @@ Lately: LLM orchestration, MCP servers, and AI-assisted engineering workflows.</
 <div align="center">
 
 ```text
-┌─ now ─────────────────────────────────────────────┐
-│  shipping     DeFi + AI systems                   │
-│  available    yes — freelance                     │
-│  response     ~24h                                │
-│  reach        @tenderdeve                         │
-└───────────────────────────────────────────────────┘
+┌─ now ────────────────────────────────────────────────────────┐
+│  shipping     full-stack: AI + Web2 + Web3 + forward-deploy  │
+│  available    yes — freelance                                │
+│  response     ~24h                                           │
+│  reach        @tenderdeve                                    │
+└──────────────────────────────────────────────────────────────┘
 ```
 
 </div>
