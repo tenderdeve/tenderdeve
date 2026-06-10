@@ -285,6 +285,22 @@ From smart contract to frontend and everything in between.<br/>
 
 </td>
 </tr>
+<tr>
+<td valign="top" align="center" width="50%">
+
+<h3><a href="https://github.com/tenderdeve/defi-dashboard">defi-dashboard</a></h3>
+<sub>Real-time DeFi portfolio dashboard — token prices, LP positions, P&L tracking — Next.js + wagmi + TailwindCSS</sub><br/><br/>
+<sub><code>TypeScript</code>&nbsp;&nbsp;<code>JavaScript</code></sub>
+
+</td>
+<td valign="top" align="center" width="50%">
+
+<h3><a href="https://github.com/tenderdeve/wallet-profiler">wallet-profiler</a></h3>
+<sub>On-chain wallet analytics platform</sub><br/><br/>
+<sub><code>JavaScript</code></sub>
+
+</td>
+</tr>
 </table>
 <!-- END:projects -->
 
