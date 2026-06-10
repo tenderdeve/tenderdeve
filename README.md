@@ -1,6 +1,6 @@
-<p align="center"><strong>Senior software engineer — full-stack Web3, DeFi protocols, and AI systems.</strong></p>
+<p align="center"><strong>Senior software engineer — full-stack Web2 & Web3, DeFi protocols, and AI systems.</strong></p>
 
-<p align="center">I build production DeFi and trading systems end to end — frontends, backends, and on-chain logic.<br/>
+<p align="center">I build production web and DeFi systems end to end — frontends, backends, and on-chain logic.<br/>
 React / Next.js + TypeScript on top, Node.js + Rust services and Solidity contracts underneath, across EVM and Solana.<br/>
 Lately: LLM orchestration, MCP servers, and AI-assisted engineering workflows.</p>
 
@@ -324,4 +324,4 @@ Lately: LLM orchestration, MCP servers, and AI-assisted engineering workflows.</
 <a href="mailto:manmits350@gmail.com"><img alt="Email" src="https://img.shields.io/badge/manmits350%40gmail.com-EA4335?logo=gmail&logoColor=white"/></a>
 </p>
 
-<p align="center"><sub>open to freelance — DeFi protocols, trading systems, full-stack Web3, and AI integrations.</sub></p>
+<p align="center"><sub>open to freelance — full-stack Web2 & Web3, DeFi protocols, trading systems, and AI integrations.</sub></p>
