@@ -1,21 +1,13 @@
-<p align="center"><strong>Senior software engineer — full-stack Web2 & Web3, DeFi protocols, and AI systems.</strong></p>
-
-<p align="center">I build production web and DeFi systems end to end — frontends, backends, and on-chain logic.<br/>
-React / Next.js + TypeScript on top, Node.js + Rust services and Solidity contracts underneath, across EVM and Solana.<br/>
-Lately: LLM orchestration, MCP servers, and AI-assisted engineering workflows.</p>
-
-<div align="center">
-
-```text
-┌─ now ────────────────────────────────────────────────────────┐
-│  shipping     full-stack: AI + Web2 + Web3 + forward-deploy  │
-│  available    yes — freelance                                │
-│  response     ~24h                                           │
-│  reach        @tenderdeve                                    │
-└──────────────────────────────────────────────────────────────┘
-```
-
-</div>
+<p align="center">
+  <strong>Manmit Singh</strong><br/>
+  <sub>Senior Software Engineer &nbsp;·&nbsp; DeFi Protocols &nbsp;·&nbsp; Full-Stack Web3 &nbsp;·&nbsp; AI-Powered Systems</sub>
+</p>
+<p align="center">
+6+ years shipping production systems across EVM and Solana.<br/>
+Intent-based execution, ERC-4337 bundlers, MEV-aware pipelines, real-time trading infra, and LLM orchestration <br/>
+From smart contract to frontend and everything in between.<br/>
+<strong>I build systems traders trust with real money.</strong>
+</p>
 
 <hr/>
 
@@ -293,22 +285,6 @@ Lately: LLM orchestration, MCP servers, and AI-assisted engineering workflows.</
 
 </td>
 </tr>
-<tr>
-<td valign="top" align="center" width="50%">
-
-<h3><a href="https://github.com/tenderdeve/defi-dashboard">defi-dashboard</a></h3>
-<sub>Real-time DeFi portfolio dashboard — token prices, LP positions, P&L tracking — Next.js + wagmi + TailwindCSS</sub><br/><br/>
-<sub><code>TypeScript</code>&nbsp;&nbsp;<code>JavaScript</code></sub>
-
-</td>
-<td valign="top" align="center" width="50%">
-
-<h3><a href="https://github.com/tenderdeve/wallet-profiler">wallet-profiler</a></h3>
-<sub>On-chain wallet analytics platform</sub><br/><br/>
-<sub><code>JavaScript</code></sub>
-
-</td>
-</tr>
 </table>
 <!-- END:projects -->
 
@@ -324,4 +300,4 @@ Lately: LLM orchestration, MCP servers, and AI-assisted engineering workflows.</
 <a href="mailto:manmits350@gmail.com"><img alt="Email" src="https://img.shields.io/badge/manmits350%40gmail.com-EA4335?logo=gmail&logoColor=white"/></a>
 </p>
 
-<p align="center"><sub>open to freelance — full-stack Web2 & Web3, DeFi protocols, trading systems, and AI integrations.</sub></p>
+<p align="center"><sub>Open to full-time opporutinities - full-stack Web2 & Web3, DeFi protocols, trading systems, and AI integrations.</sub></p>
