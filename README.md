@@ -1,14 +1,14 @@
-<p align="center"><strong>DeFi frontend engineer — trading UIs, liquidity dashboards, on-chain data viz.</strong></p>
+<p align="center"><strong>Senior software engineer — full-stack Web3, DeFi protocols, and AI systems.</strong></p>
 
-<p align="center">I build the frontends people use to trade, lend, and manage positions in DeFi.<br/>
-React / Next.js + TypeScript + Tailwind, with ethers.js + wagmi + subgraphs underneath.<br/>
-I care about performance, accessibility, and numbers traders trust with real money.</p>
+<p align="center">I build production DeFi and trading systems end to end — frontends, backends, and on-chain logic.<br/>
+React / Next.js + TypeScript on top, Node.js + Rust services and Solidity contracts underneath, across EVM and Solana.<br/>
+Lately: LLM orchestration, MCP servers, and AI-assisted engineering workflows.</p>
 
 <div align="center">
 
 ```text
 ┌─ now ─────────────────────────────────────────────┐
-│  shipping     DeFi frontends                      │
+│  shipping     DeFi + AI systems                   │
 │  available    yes — freelance                     │
 │  response     ~24h                                │
 │  reach        @tenderdeve                         │
@@ -324,4 +324,4 @@ I care about performance, accessibility, and numbers traders trust with real mon
 <a href="mailto:manmits350@gmail.com"><img alt="Email" src="https://img.shields.io/badge/manmits350%40gmail.com-EA4335?logo=gmail&logoColor=white"/></a>
 </p>
 
-<p align="center"><sub>open to freelance — DeFi frontend infra, trading UIs, on-chain data viz.</sub></p>
+<p align="center"><sub>open to freelance — DeFi protocols, trading systems, full-stack Web3, and AI integrations.</sub></p>
