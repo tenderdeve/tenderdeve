@@ -61,6 +61,20 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
+<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 6 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7697"><code>#7697</code></a> — fix(widget): fire ON_BEFORE_APPROVAL widget hook before permit signing</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7696"><code>#7696</code></a> — fix(bridge): disable swap-and-bridge on the Hooks tab</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7695"><code>#7695</code></a> — fix(twap): approve prod vault relayer regardless of environment</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7692"><code>#7692</code></a> — fix(trade-state): preserve URL chainId on first load when wallet is connected</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7465"><code>#7465</code></a> — fix(trade): preserve URL recipient when chainId initializes</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7464"><code>#7464</code></a> — fix(swap): hide MetaMask version warning on mobile browsers</li>
+</ul>
+</details>
+
+</td><td valign="top" align="center" width="50%">
+
+<details>
 <summary><img src="https://github.com/wevm.png?size=40" width="20" height="20" align="top" alt="wevm" /> <b><a href="https://github.com/wevm/viem">wevm/viem</a></b> &middot; 6 PRs &middot; <a href="https://github.com/wevm/viem/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/wevm/viem/pull/4582"><code>#4582</code></a> — fix(abi): handle anonymous events in encodeEventTopics</li>
@@ -72,7 +86,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/daaoai.png?size=40" width="20" height="20" align="top" alt="daaoai" /> <b><a href="https://github.com/daaoai/dex">daaoai/dex</a></b> &middot; 5 PRs &middot; <a href="https://github.com/daaoai/dex/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -85,8 +100,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/MetaMask.png?size=40" width="20" height="20" align="top" alt="MetaMask" /> <b><a href="https://github.com/MetaMask/metamask-extension">MetaMask/metamask-extension</a></b> &middot; 4 PRs &middot; <a href="https://github.com/MetaMask/metamask-extension/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -98,7 +112,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/NomicFoundation.png?size=40" width="20" height="20" align="top" alt="NomicFoundation" /> <b><a href="https://github.com/NomicFoundation/hardhat">NomicFoundation/hardhat</a></b> &middot; 3 PRs &middot; <a href="https://github.com/NomicFoundation/hardhat/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -109,8 +124,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/family.png?size=40" width="20" height="20" align="top" alt="family" /> <b><a href="https://github.com/family/connectkit">family/connectkit</a></b> &middot; 3 PRs &middot; <a href="https://github.com/family/connectkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -121,7 +135,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/near.png?size=40" width="20" height="20" align="top" alt="near" /> <b><a href="https://github.com/near/near-sdk-js">near/near-sdk-js</a></b> &middot; 3 PRs &middot; <a href="https://github.com/near/near-sdk-js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -129,17 +144,6 @@ From smart contract to frontend and everything in between.<br/>
 <li><a href="https://github.com/near/near-sdk-js/pull/429"><code>#429</code></a> — fix: return strings from NFT enumeration supply methods</li>
 <li><a href="https://github.com/near/near-sdk-js/pull/428"><code>#428</code></a> — fix: add missing ft_metadata view function to fungible token example</li>
 <li><a href="https://github.com/near/near-sdk-js/pull/427"><code>#427</code></a> — docs: add CLI usage example for building and deploying contracts</li>
-</ul>
-</details>
-
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
-
-<details>
-<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 2 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-<ul>
-<li><a href="https://github.com/cowprotocol/cowswap/pull/7465"><code>#7465</code></a> — fix(trade): preserve URL recipient when chainId initializes</li>
-<li><a href="https://github.com/cowprotocol/cowswap/pull/7464"><code>#7464</code></a> — fix(swap): hide MetaMask version warning on mobile browsers</li>
 </ul>
 </details>
 
@@ -259,7 +263,16 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%"></td></tr>
+</td><td valign="top" align="center" width="50%">
+
+<details>
+<summary><img src="https://github.com/safe-global.png?size=40" width="20" height="20" align="top" alt="safe-global" /> <b><a href="https://github.com/safe-global/safe-wallet-monorepo">safe-global/safe-wallet-monorepo</a></b> &middot; 1 PR &middot; <a href="https://github.com/safe-global/safe-wallet-monorepo/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/safe-global/safe-wallet-monorepo/pull/8179"><code>#8179</code></a> — feat(web): show transaction note in nonce replacement label</li>
+</ul>
+</details>
+
+</td></tr>
 </table>
 <!-- END:ecosystem -->
 
