@@ -61,8 +61,14 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 6 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 12 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7720"><code>#7720</code></a> — fix(address-input): drop chain-prefix warning when recipient is cleared</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7718"><code>#7718</code></a> — fix(account): show correct order amounts in Unfillable edit-approval modal</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7713"><code>#7713</code></a> — fix(explorer): hide socket links for cancelled or expired bridge orders</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7711"><code>#7711</code></a> — fix(bridge): hide stale price impact while a new quote is loading</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7707"><code>#7707</code></a> — fix(bridge): keep bridge order status polling while tab is hidden</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7701"><code>#7701</code></a> — fix(account): show Unfillable warning for swap-and-bridge orders</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7697"><code>#7697</code></a> — fix(widget): fire ON_BEFORE_APPROVAL widget hook before permit signing</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7696"><code>#7696</code></a> — fix(bridge): disable swap-and-bridge on the Hooks tab</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7695"><code>#7695</code></a> — fix(twap): approve prod vault relayer regardless of environment</li>
@@ -116,6 +122,18 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
+<summary><img src="https://github.com/safe-global.png?size=40" width="20" height="20" align="top" alt="safe-global" /> <b><a href="https://github.com/safe-global/safe-wallet-monorepo">safe-global/safe-wallet-monorepo</a></b> &middot; 4 PRs &middot; <a href="https://github.com/safe-global/safe-wallet-monorepo/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/safe-global/safe-wallet-monorepo/pull/8187"><code>#8187</code></a> — fix(store): filter unsupported chains out of read paths for addedSafes</li>
+<li><a href="https://github.com/safe-global/safe-wallet-monorepo/pull/8186"><code>#8186</code></a> — fix(spaces): recognise nested Safe owners on the send-tokens button</li>
+<li><a href="https://github.com/safe-global/safe-wallet-monorepo/pull/8185"><code>#8185</code></a> — fix: use configured RPC for ENS resolution in web3-onboard</li>
+<li><a href="https://github.com/safe-global/safe-wallet-monorepo/pull/8179"><code>#8179</code></a> — feat(web): show transaction note in nonce replacement label</li>
+</ul>
+</details>
+
+</td><td valign="top" align="center" width="50%">
+
+<details>
 <summary><img src="https://github.com/NomicFoundation.png?size=40" width="20" height="20" align="top" alt="NomicFoundation" /> <b><a href="https://github.com/NomicFoundation/hardhat">NomicFoundation/hardhat</a></b> &middot; 3 PRs &middot; <a href="https://github.com/NomicFoundation/hardhat/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/NomicFoundation/hardhat/pull/8234"><code>#8234</code></a> — feat: add per-cheatcode suggestions for unsupported cheatcodes</li>
@@ -124,7 +142,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/family.png?size=40" width="20" height="20" align="top" alt="family" /> <b><a href="https://github.com/family/connectkit">family/connectkit</a></b> &middot; 3 PRs &middot; <a href="https://github.com/family/connectkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -135,8 +154,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/near.png?size=40" width="20" height="20" align="top" alt="near" /> <b><a href="https://github.com/near/near-sdk-js">near/near-sdk-js</a></b> &middot; 3 PRs &middot; <a href="https://github.com/near/near-sdk-js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -147,7 +165,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ethereum.png?size=40" width="20" height="20" align="top" alt="ethereum" /> <b><a href="https://github.com/ethereum/ethereum-org-website">ethereum/ethereum-org-website</a></b> &middot; 2 PRs &middot; <a href="https://github.com/ethereum/ethereum-org-website/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -157,8 +176,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ethers-io.png?size=40" width="20" height="20" align="top" alt="ethers-io" /> <b><a href="https://github.com/ethers-io/ethers.js">ethers-io/ethers.js</a></b> &middot; 2 PRs &middot; <a href="https://github.com/ethers-io/ethers.js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -168,7 +186,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/OffchainLabs.png?size=40" width="20" height="20" align="top" alt="OffchainLabs" /> <b><a href="https://github.com/OffchainLabs/nitro">OffchainLabs/nitro</a></b> &middot; 1 PR &middot; <a href="https://github.com/OffchainLabs/nitro/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -177,8 +196,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/Uniswap.png?size=40" width="20" height="20" align="top" alt="Uniswap" /> <b><a href="https://github.com/Uniswap/interface">Uniswap/interface</a></b> &middot; 1 PR &middot; <a href="https://github.com/Uniswap/interface/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -187,7 +205,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ensdomains.png?size=40" width="20" height="20" align="top" alt="ensdomains" /> <b><a href="https://github.com/ensdomains/ens-app-v3">ensdomains/ens-app-v3</a></b> &middot; 1 PR &middot; <a href="https://github.com/ensdomains/ens-app-v3/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -196,8 +215,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ethereum.png?size=40" width="20" height="20" align="top" alt="ethereum" /> <b><a href="https://github.com/ethereum/go-ethereum">ethereum/go-ethereum</a></b> &middot; 1 PR &middot; <a href="https://github.com/ethereum/go-ethereum/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -206,7 +224,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/firecrawl.png?size=40" width="20" height="20" align="top" alt="firecrawl" /> <b><a href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a></b> &middot; 1 PR &middot; <a href="https://github.com/firecrawl/firecrawl/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -215,8 +234,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/langchain-ai.png?size=40" width="20" height="20" align="top" alt="langchain-ai" /> <b><a href="https://github.com/langchain-ai/langchainjs">langchain-ai/langchainjs</a></b> &middot; 1 PR &middot; <a href="https://github.com/langchain-ai/langchainjs/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -225,7 +243,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/otter-sec.png?size=40" width="20" height="20" align="top" alt="otter-sec" /> <b><a href="https://github.com/otter-sec/anchor">otter-sec/anchor</a></b> &middot; 1 PR &middot; <a href="https://github.com/otter-sec/anchor/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -234,8 +253,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ponder-sh.png?size=40" width="20" height="20" align="top" alt="ponder-sh" /> <b><a href="https://github.com/ponder-sh/ponder">ponder-sh/ponder</a></b> &middot; 1 PR &middot; <a href="https://github.com/ponder-sh/ponder/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -244,7 +262,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/rainbow-me.png?size=40" width="20" height="20" align="top" alt="rainbow-me" /> <b><a href="https://github.com/rainbow-me/rainbowkit">rainbow-me/rainbowkit</a></b> &middot; 1 PR &middot; <a href="https://github.com/rainbow-me/rainbowkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -253,22 +272,12 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/remix-project-org.png?size=40" width="20" height="20" align="top" alt="remix-project-org" /> <b><a href="https://github.com/remix-project-org/remix-project">remix-project-org/remix-project</a></b> &middot; 1 PR &middot; <a href="https://github.com/remix-project-org/remix-project/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/remix-project-org/remix-project/pull/7147"><code>#7147</code></a> — fix: default deployed contract functions to expanded state</li>
-</ul>
-</details>
-
-</td><td valign="top" align="center" width="50%">
-
-<details>
-<summary><img src="https://github.com/safe-global.png?size=40" width="20" height="20" align="top" alt="safe-global" /> <b><a href="https://github.com/safe-global/safe-wallet-monorepo">safe-global/safe-wallet-monorepo</a></b> &middot; 1 PR &middot; <a href="https://github.com/safe-global/safe-wallet-monorepo/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-<ul>
-<li><a href="https://github.com/safe-global/safe-wallet-monorepo/pull/8179"><code>#8179</code></a> — feat(web): show transaction note in nonce replacement label</li>
 </ul>
 </details>
 
