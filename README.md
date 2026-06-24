@@ -61,8 +61,10 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 13 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 15 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7730"><code>#7730</code></a> — fix(twap): stay on Signing tab after placing a TWAP order</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7728"><code>#7728</code></a> — fix(tradeQuote): clear stale error on params change</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7727"><code>#7727</code></a> — fix(safe-eth-flow): wrap slippage-adjusted sell amount for buy orders</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7720"><code>#7720</code></a> — fix(address-input): drop chain-prefix warning when recipient is cleared</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7718"><code>#7718</code></a> — fix(account): show correct order amounts in Unfillable edit-approval modal</li>
