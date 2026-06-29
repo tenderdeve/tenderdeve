@@ -160,6 +160,18 @@ From smart contract to frontend and everything in between.<br/>
 </td><td valign="top" align="center" width="50%">
 
 <details>
+<summary><img src="https://github.com/headroomlabs-ai.png?size=40" width="20" height="20" align="top" alt="headroomlabs-ai" /> <b><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></b> &middot; 3 PRs &middot; <a href="https://github.com/headroomlabs-ai/headroom/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1553"><code>#1553</code></a> — fix(bedrock): fail fast when session-token auth lacks botocore</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1550"><code>#1550</code></a> — fix(wrap): use valid Serena context for opencode</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1548"><code>#1548</code></a> — fix(detection): contain unidiff panic on orphaned +++ target line</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
+
+<details>
 <summary><img src="https://github.com/near.png?size=40" width="20" height="20" align="top" alt="near" /> <b><a href="https://github.com/near/near-sdk-js">near/near-sdk-js</a></b> &middot; 3 PRs &middot; <a href="https://github.com/near/near-sdk-js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/near/near-sdk-js/pull/429"><code>#429</code></a> — fix: return strings from NFT enumeration supply methods</li>
@@ -168,8 +180,30 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
+</td><td valign="top" align="center" width="50%">
+
+<details>
+<summary><img src="https://github.com/ollama.png?size=40" width="20" height="20" align="top" alt="ollama" /> <b><a href="https://github.com/ollama/ollama">ollama/ollama</a></b> &middot; 3 PRs &middot; <a href="https://github.com/ollama/ollama/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/ollama/ollama/pull/16955"><code>#16955</code></a> — llm: skip quantized kv cache for models that don't support it</li>
+<li><a href="https://github.com/ollama/ollama/pull/16954"><code>#16954</code></a> — app/ui: render chat messages with automatic text direction</li>
+<li><a href="https://github.com/ollama/ollama/pull/16953"><code>#16953</code></a> — model/parsers: honor think value when initializing the qwen3-vl parser</li>
+</ul>
+</details>
+
 </td></tr>
 <tr><td valign="top" align="center" width="50%">
+
+<details>
+<summary><img src="https://github.com/tauri-apps.png?size=40" width="20" height="20" align="top" alt="tauri-apps" /> <b><a href="https://github.com/tauri-apps/tauri">tauri-apps/tauri</a></b> &middot; 3 PRs &middot; <a href="https://github.com/tauri-apps/tauri/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15605"><code>#15605</code></a> — fix(driver): strip BiDi webSocketUrl capability before forwarding (fix #15415)</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15604"><code>#15604</code></a> — fix(core): purge JS event listeners when source webview is destroyed (fix #15583)</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15603"><code>#15603</code></a> — fix(acl): make ResolvedCommand referenced_by unconditional (fix #15406)</li>
+</ul>
+</details>
+
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ethereum.png?size=40" width="20" height="20" align="top" alt="ethereum" /> <b><a href="https://github.com/ethereum/ethereum-org-website">ethereum/ethereum-org-website</a></b> &middot; 2 PRs &middot; <a href="https://github.com/ethereum/ethereum-org-website/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -179,24 +213,14 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ethers-io.png?size=40" width="20" height="20" align="top" alt="ethers-io" /> <b><a href="https://github.com/ethers-io/ethers.js">ethers-io/ethers.js</a></b> &middot; 2 PRs &middot; <a href="https://github.com/ethers-io/ethers.js/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/ethers-io/ethers.js/pull/5135"><code>#5135</code></a> — Add configurable timeout for CCIP-read fetch requests</li>
 <li><a href="https://github.com/ethers-io/ethers.js/pull/5132"><code>#5132</code></a> — fix: defer subscriber teardown in emit to prevent WebSocket subscription loss</li>
-</ul>
-</details>
-
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
-
-<details>
-<summary><img src="https://github.com/headroomlabs-ai.png?size=40" width="20" height="20" align="top" alt="headroomlabs-ai" /> <b><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></b> &middot; 2 PRs &middot; <a href="https://github.com/headroomlabs-ai/headroom/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-<ul>
-<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1550"><code>#1550</code></a> — fix(wrap): use valid Serena context for opencode</li>
-<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1548"><code>#1548</code></a> — fix(detection): contain unidiff panic on orphaned +++ target line</li>
 </ul>
 </details>
 
