@@ -61,8 +61,11 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 15 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 18 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7775"><code>#7775</code></a> — fix(zero-approval): stop logging expected USDT approve revert as an error</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7772"><code>#7772</code></a> — fix(wallet): guard undefined connector on reconnect to stop refresh crash</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7770"><code>#7770</code></a> — fix(captcha): hide solved Turnstile widget so its success box leaves the form</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7730"><code>#7730</code></a> — fix(twap): stay on Signing tab after placing a TWAP order</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7728"><code>#7728</code></a> — fix(tradeQuote): clear stale error on params change</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7727"><code>#7727</code></a> — fix(safe-eth-flow): wrap slippage-adjusted sell amount for buy orders</li>
@@ -84,6 +87,50 @@ From smart contract to frontend and everything in between.<br/>
 </td><td valign="top" align="center" width="50%">
 
 <details>
+<summary><img src="https://github.com/headroomlabs-ai.png?size=40" width="20" height="20" align="top" alt="headroomlabs-ai" /> <b><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></b> &middot; 6 PRs &middot; <a href="https://github.com/headroomlabs-ai/headroom/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1595"><code>#1595</code></a> — feat(cli): add `headroom diff` to view original vs compressed content</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1594"><code>#1594</code></a> — feat(proxy): show real upstream provider on dashboard for OpenAI-compatible endpoints</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1585"><code>#1585</code></a> — docs: clarify the headroom CLI is pip-only; npm headroom-ai is the TS SDK</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1553"><code>#1553</code></a> — fix(bedrock): fail fast when session-token auth lacks botocore</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1550"><code>#1550</code></a> — fix(wrap): use valid Serena context for opencode</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1548"><code>#1548</code></a> — fix(detection): contain unidiff panic on orphaned +++ target line</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
+
+<details>
+<summary><img src="https://github.com/ollama.png?size=40" width="20" height="20" align="top" alt="ollama" /> <b><a href="https://github.com/ollama/ollama">ollama/ollama</a></b> &middot; 6 PRs &middot; <a href="https://github.com/ollama/ollama/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/ollama/ollama/pull/16974"><code>#16974</code></a> — cmake: ease Windows clang and custom ROCm builds from source</li>
+<li><a href="https://github.com/ollama/ollama/pull/16973"><code>#16973</code></a> — server: raise automatic context floor for vision models</li>
+<li><a href="https://github.com/ollama/ollama/pull/16972"><code>#16972</code></a> — server: inherit model_info when creating from a remote model</li>
+<li><a href="https://github.com/ollama/ollama/pull/16955"><code>#16955</code></a> — llm: skip quantized kv cache for models that don't support it</li>
+<li><a href="https://github.com/ollama/ollama/pull/16954"><code>#16954</code></a> — app/ui: render chat messages with automatic text direction</li>
+<li><a href="https://github.com/ollama/ollama/pull/16953"><code>#16953</code></a> — model/parsers: honor think value when initializing the qwen3-vl parser</li>
+</ul>
+</details>
+
+</td><td valign="top" align="center" width="50%">
+
+<details>
+<summary><img src="https://github.com/tauri-apps.png?size=40" width="20" height="20" align="top" alt="tauri-apps" /> <b><a href="https://github.com/tauri-apps/tauri">tauri-apps/tauri</a></b> &middot; 6 PRs &middot; <a href="https://github.com/tauri-apps/tauri/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15620"><code>#15620</code></a> — feat(cli): support non-square source images in `tauri icon`</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15619"><code>#15619</code></a> — feat(bundler): add bundle &gt; disableBinaryPatching option</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15617"><code>#15617</code></a> — fix(core): purge Rust event listeners when window/webview is destroyed</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15605"><code>#15605</code></a> — fix(driver): strip BiDi webSocketUrl capability before forwarding (fix #15415)</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15604"><code>#15604</code></a> — fix(core): purge JS event listeners when source webview is destroyed (fix #15583)</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15603"><code>#15603</code></a> — fix(acl): make ResolvedCommand referenced_by unconditional (fix #15406)</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
+
+<details>
 <summary><img src="https://github.com/wevm.png?size=40" width="20" height="20" align="top" alt="wevm" /> <b><a href="https://github.com/wevm/viem">wevm/viem</a></b> &middot; 6 PRs &middot; <a href="https://github.com/wevm/viem/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/wevm/viem/pull/4582"><code>#4582</code></a> — fix(abi): handle anonymous events in encodeEventTopics</li>
@@ -95,8 +142,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/daaoai.png?size=40" width="20" height="20" align="top" alt="daaoai" /> <b><a href="https://github.com/daaoai/dex">daaoai/dex</a></b> &middot; 5 PRs &middot; <a href="https://github.com/daaoai/dex/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -109,7 +155,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/MetaMask.png?size=40" width="20" height="20" align="top" alt="MetaMask" /> <b><a href="https://github.com/MetaMask/metamask-extension">MetaMask/metamask-extension</a></b> &middot; 4 PRs &middot; <a href="https://github.com/MetaMask/metamask-extension/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -121,8 +168,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/safe-global.png?size=40" width="20" height="20" align="top" alt="safe-global" /> <b><a href="https://github.com/safe-global/safe-wallet-monorepo">safe-global/safe-wallet-monorepo</a></b> &middot; 4 PRs &middot; <a href="https://github.com/safe-global/safe-wallet-monorepo/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -134,7 +180,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/NomicFoundation.png?size=40" width="20" height="20" align="top" alt="NomicFoundation" /> <b><a href="https://github.com/NomicFoundation/hardhat">NomicFoundation/hardhat</a></b> &middot; 3 PRs &middot; <a href="https://github.com/NomicFoundation/hardhat/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -145,8 +192,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/family.png?size=40" width="20" height="20" align="top" alt="family" /> <b><a href="https://github.com/family/connectkit">family/connectkit</a></b> &middot; 3 PRs &middot; <a href="https://github.com/family/connectkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -154,17 +200,6 @@ From smart contract to frontend and everything in between.<br/>
 <li><a href="https://github.com/family/connectkit/pull/509"><code>#509</code></a> — fix: disable storage on ENS fallback config</li>
 <li><a href="https://github.com/family/connectkit/pull/508"><code>#508</code></a> — fix: add Base to default chains so its icon renders out of the box</li>
 <li><a href="https://github.com/family/connectkit/pull/507"><code>#507</code></a> — fix: deduplicate injected connector when EIP-6963 wallet is detected</li>
-</ul>
-</details>
-
-</td><td valign="top" align="center" width="50%">
-
-<details>
-<summary><img src="https://github.com/headroomlabs-ai.png?size=40" width="20" height="20" align="top" alt="headroomlabs-ai" /> <b><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></b> &middot; 3 PRs &middot; <a href="https://github.com/headroomlabs-ai/headroom/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-<ul>
-<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1553"><code>#1553</code></a> — fix(bedrock): fail fast when session-token auth lacks botocore</li>
-<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1550"><code>#1550</code></a> — fix(wrap): use valid Serena context for opencode</li>
-<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1548"><code>#1548</code></a> — fix(detection): contain unidiff panic on orphaned +++ target line</li>
 </ul>
 </details>
 
@@ -177,29 +212,6 @@ From smart contract to frontend and everything in between.<br/>
 <li><a href="https://github.com/near/near-sdk-js/pull/429"><code>#429</code></a> — fix: return strings from NFT enumeration supply methods</li>
 <li><a href="https://github.com/near/near-sdk-js/pull/428"><code>#428</code></a> — fix: add missing ft_metadata view function to fungible token example</li>
 <li><a href="https://github.com/near/near-sdk-js/pull/427"><code>#427</code></a> — docs: add CLI usage example for building and deploying contracts</li>
-</ul>
-</details>
-
-</td><td valign="top" align="center" width="50%">
-
-<details>
-<summary><img src="https://github.com/ollama.png?size=40" width="20" height="20" align="top" alt="ollama" /> <b><a href="https://github.com/ollama/ollama">ollama/ollama</a></b> &middot; 3 PRs &middot; <a href="https://github.com/ollama/ollama/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-<ul>
-<li><a href="https://github.com/ollama/ollama/pull/16955"><code>#16955</code></a> — llm: skip quantized kv cache for models that don't support it</li>
-<li><a href="https://github.com/ollama/ollama/pull/16954"><code>#16954</code></a> — app/ui: render chat messages with automatic text direction</li>
-<li><a href="https://github.com/ollama/ollama/pull/16953"><code>#16953</code></a> — model/parsers: honor think value when initializing the qwen3-vl parser</li>
-</ul>
-</details>
-
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
-
-<details>
-<summary><img src="https://github.com/tauri-apps.png?size=40" width="20" height="20" align="top" alt="tauri-apps" /> <b><a href="https://github.com/tauri-apps/tauri">tauri-apps/tauri</a></b> &middot; 3 PRs &middot; <a href="https://github.com/tauri-apps/tauri/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-<ul>
-<li><a href="https://github.com/tauri-apps/tauri/pull/15605"><code>#15605</code></a> — fix(driver): strip BiDi webSocketUrl capability before forwarding (fix #15415)</li>
-<li><a href="https://github.com/tauri-apps/tauri/pull/15604"><code>#15604</code></a> — fix(core): purge JS event listeners when source webview is destroyed (fix #15583)</li>
-<li><a href="https://github.com/tauri-apps/tauri/pull/15603"><code>#15603</code></a> — fix(acl): make ResolvedCommand referenced_by unconditional (fix #15406)</li>
 </ul>
 </details>
 
