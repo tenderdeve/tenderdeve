@@ -61,8 +61,12 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 18 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 22 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7785"><code>#7785</code></a> — fix(wallet): reconnect in embedded contexts so widget/Safe don't show 'Connect Wallet'</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7783"><code>#7783</code></a> — fix(explorer): show 'no results found' instead of hanging on an unfetchable tx</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7782"><code>#7782</code></a> — feat(widget): show loading indication on retry</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7781"><code>#7781</code></a> — fix(errors): show friendly message when wallet rejects order signing</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7775"><code>#7775</code></a> — fix(zero-approval): stop logging expected USDT approve revert as an error</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7772"><code>#7772</code></a> — fix(wallet): guard undefined connector on reconnect to stop refresh crash</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7770"><code>#7770</code></a> — fix(captcha): hide solved Turnstile widget so its success box leaves the form</li>
@@ -87,9 +91,13 @@ From smart contract to frontend and everything in between.<br/>
 </td><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/headroomlabs-ai.png?size=40" width="20" height="20" align="top" alt="headroomlabs-ai" /> <b><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></b> &middot; 6 PRs &middot; <a href="https://github.com/headroomlabs-ai/headroom/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/headroomlabs-ai.png?size=40" width="20" height="20" align="top" alt="headroomlabs-ai" /> <b><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></b> &middot; 10 PRs &middot; <a href="https://github.com/headroomlabs-ai/headroom/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
-<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1595"><code>#1595</code></a> — feat(cli): add `headroom diff` to view original vs compressed content</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1645"><code>#1645</code></a> — fix(proxy): retry HTTP/2 stream resets instead of 502ing</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1644"><code>#1644</code></a> — feat(proxy): add opt-in /health?probe=true multi-hop upstream probe</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1643"><code>#1643</code></a> — fix(proxy): gate mid-turn message coalescing to Claude Code clients</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1642"><code>#1642</code></a> — fix(learn): honor CLAUDE_CONFIG_DIR when locating Claude logs and memory</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1595"><code>#1595</code></a> — feat(cli): add `headroom inspect` to view original vs compressed content</li>
 <li><a href="https://github.com/headroomlabs-ai/headroom/pull/1594"><code>#1594</code></a> — feat(proxy): show real upstream provider on dashboard for OpenAI-compatible endpoints</li>
 <li><a href="https://github.com/headroomlabs-ai/headroom/pull/1585"><code>#1585</code></a> — docs: clarify the headroom CLI is pip-only; npm headroom-ai is the TS SDK</li>
 <li><a href="https://github.com/headroomlabs-ai/headroom/pull/1553"><code>#1553</code></a> — fix(bedrock): fail fast when session-token auth lacks botocore</li>
@@ -102,6 +110,23 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
+<summary><img src="https://github.com/tauri-apps.png?size=40" width="20" height="20" align="top" alt="tauri-apps" /> <b><a href="https://github.com/tauri-apps/tauri">tauri-apps/tauri</a></b> &middot; 9 PRs &middot; <a href="https://github.com/tauri-apps/tauri/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15630"><code>#15630</code></a> — fix(runtime-wry): query monitors on main thread from runtime handle</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15629"><code>#15629</code></a> — fix(build): copy newly added files from resource directories</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15628"><code>#15628</code></a> — fix(runtime-wry): reapply custom traffic light position on macOS</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15620"><code>#15620</code></a> — feat(cli): support non-square source images in `tauri icon`</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15619"><code>#15619</code></a> — feat(bundler): add bundle &gt; disableBinaryPatching option</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15617"><code>#15617</code></a> — fix(core): purge Rust event listeners when window/webview is destroyed</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15605"><code>#15605</code></a> — fix(driver): strip BiDi webSocketUrl capability before forwarding (fix #15415)</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15604"><code>#15604</code></a> — fix(core): purge JS event listeners when source webview is destroyed (fix #15583)</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15603"><code>#15603</code></a> — fix(acl): make ResolvedCommand referenced_by unconditional (fix #15406)</li>
+</ul>
+</details>
+
+</td><td valign="top" align="center" width="50%">
+
+<details>
 <summary><img src="https://github.com/ollama.png?size=40" width="20" height="20" align="top" alt="ollama" /> <b><a href="https://github.com/ollama/ollama">ollama/ollama</a></b> &middot; 6 PRs &middot; <a href="https://github.com/ollama/ollama/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/ollama/ollama/pull/16974"><code>#16974</code></a> — cmake: ease Windows clang and custom ROCm builds from source</li>
@@ -110,20 +135,6 @@ From smart contract to frontend and everything in between.<br/>
 <li><a href="https://github.com/ollama/ollama/pull/16955"><code>#16955</code></a> — llm: skip quantized kv cache for models that don't support it</li>
 <li><a href="https://github.com/ollama/ollama/pull/16954"><code>#16954</code></a> — app/ui: render chat messages with automatic text direction</li>
 <li><a href="https://github.com/ollama/ollama/pull/16953"><code>#16953</code></a> — model/parsers: honor think value when initializing the qwen3-vl parser</li>
-</ul>
-</details>
-
-</td><td valign="top" align="center" width="50%">
-
-<details>
-<summary><img src="https://github.com/tauri-apps.png?size=40" width="20" height="20" align="top" alt="tauri-apps" /> <b><a href="https://github.com/tauri-apps/tauri">tauri-apps/tauri</a></b> &middot; 6 PRs &middot; <a href="https://github.com/tauri-apps/tauri/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
-<ul>
-<li><a href="https://github.com/tauri-apps/tauri/pull/15620"><code>#15620</code></a> — feat(cli): support non-square source images in `tauri icon`</li>
-<li><a href="https://github.com/tauri-apps/tauri/pull/15619"><code>#15619</code></a> — feat(bundler): add bundle &gt; disableBinaryPatching option</li>
-<li><a href="https://github.com/tauri-apps/tauri/pull/15617"><code>#15617</code></a> — fix(core): purge Rust event listeners when window/webview is destroyed</li>
-<li><a href="https://github.com/tauri-apps/tauri/pull/15605"><code>#15605</code></a> — fix(driver): strip BiDi webSocketUrl capability before forwarding (fix #15415)</li>
-<li><a href="https://github.com/tauri-apps/tauri/pull/15604"><code>#15604</code></a> — fix(core): purge JS event listeners when source webview is destroyed (fix #15583)</li>
-<li><a href="https://github.com/tauri-apps/tauri/pull/15603"><code>#15603</code></a> — fix(acl): make ResolvedCommand referenced_by unconditional (fix #15406)</li>
 </ul>
 </details>
 
