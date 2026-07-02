@@ -116,7 +116,7 @@ From smart contract to frontend and everything in between.<br/>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15629"><code>#15629</code></a> — fix(build): copy newly added files from resource directories</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15628"><code>#15628</code></a> — fix(runtime-wry): reapply custom traffic light position on macOS</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15620"><code>#15620</code></a> — feat(cli): support non-square source images in `tauri icon`</li>
-<li><a href="https://github.com/tauri-apps/tauri/pull/15619"><code>#15619</code></a> — feat(bundler): add bundle &gt; disableBinaryPatching option</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15619"><code>#15619</code></a> — feat(cli): add `--no-binary-patching` flag to build and bundle</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15617"><code>#15617</code></a> — fix(core): purge Rust event listeners when window/webview is destroyed</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15605"><code>#15605</code></a> — fix(driver): strip BiDi webSocketUrl capability before forwarding (fix #15415)</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15604"><code>#15604</code></a> — fix(core): purge JS event listeners when source webview is destroyed (fix #15583)</li>
