@@ -61,8 +61,12 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 22 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 26 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7805"><code>#7805</code></a> — fix(trade): remove 'total fee' row from swap form</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7804"><code>#7804</code></a> — fix(limit-twap): disable confirm when balance is insufficient</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7803"><code>#7803</code></a> — feat(bridge): show approximate bridging time while order is pending</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7802"><code>#7802</code></a> — fix(twap): label open orders as unfillable when Safe fallback handler is reset</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7785"><code>#7785</code></a> — fix(wallet): reconnect in embedded contexts so widget/Safe don't show 'Connect Wallet'</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7783"><code>#7783</code></a> — fix(explorer): show 'no results found' instead of hanging on an unfetchable tx</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7782"><code>#7782</code></a> — feat(widget): show loading indication on retry</li>
@@ -91,8 +95,11 @@ From smart contract to frontend and everything in between.<br/>
 </td><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/headroomlabs-ai.png?size=40" width="20" height="20" align="top" alt="headroomlabs-ai" /> <b><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></b> &middot; 10 PRs &middot; <a href="https://github.com/headroomlabs-ai/headroom/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/headroomlabs-ai.png?size=40" width="20" height="20" align="top" alt="headroomlabs-ai" /> <b><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></b> &middot; 13 PRs &middot; <a href="https://github.com/headroomlabs-ai/headroom/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1699"><code>#1699</code></a> — feat(proxy): opt-in compression for catch-all passthrough routes</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1698"><code>#1698</code></a> — fix(rtk): link managed rtk onto PATH instead of mutating the hook</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/1691"><code>#1691</code></a> — fix(memory): singleflight LocalBackend init to stop cold-start races</li>
 <li><a href="https://github.com/headroomlabs-ai/headroom/pull/1645"><code>#1645</code></a> — fix(proxy): retry HTTP/2 stream resets instead of 502ing</li>
 <li><a href="https://github.com/headroomlabs-ai/headroom/pull/1644"><code>#1644</code></a> — feat(proxy): add opt-in /health?probe=true multi-hop upstream probe</li>
 <li><a href="https://github.com/headroomlabs-ai/headroom/pull/1643"><code>#1643</code></a> — fix(proxy): gate mid-turn message coalescing to Claude Code clients</li>
@@ -110,8 +117,12 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/tauri-apps.png?size=40" width="20" height="20" align="top" alt="tauri-apps" /> <b><a href="https://github.com/tauri-apps/tauri">tauri-apps/tauri</a></b> &middot; 9 PRs &middot; <a href="https://github.com/tauri-apps/tauri/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/tauri-apps.png?size=40" width="20" height="20" align="top" alt="tauri-apps" /> <b><a href="https://github.com/tauri-apps/tauri">tauri-apps/tauri</a></b> &middot; 13 PRs &middot; <a href="https://github.com/tauri-apps/tauri/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15644"><code>#15644</code></a> — feat(bundler): show bundle sizes in the finished output</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15643"><code>#15643</code></a> — chore: rename LICENSE files to use dashes instead of underscores</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15642"><code>#15642</code></a> — fix(android): re-register activity result launchers on activity recreation</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15640"><code>#15640</code></a> — feat(config): allow macOS fullscreen and transparent APIs to be enabled independently</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15630"><code>#15630</code></a> — fix(runtime-wry): query monitors on main thread from runtime handle</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15629"><code>#15629</code></a> — fix(build): copy newly added files from resource directories</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15628"><code>#15628</code></a> — fix(runtime-wry): reapply custom traffic light position on macOS</li>
@@ -342,7 +353,16 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%"></td></tr>
+</td><td valign="top" align="center" width="50%">
+
+<details>
+<summary><img src="https://github.com/tauri-apps.png?size=40" width="20" height="20" align="top" alt="tauri-apps" /> <b><a href="https://github.com/tauri-apps/tao">tauri-apps/tao</a></b> &middot; 1 PR &middot; <a href="https://github.com/tauri-apps/tao/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/tauri-apps/tao/pull/1254"><code>#1254</code></a> — fix(macos): reapply traffic light inset on title change and fullscreen exit</li>
+</ul>
+</details>
+
+</td></tr>
 </table>
 <!-- END:ecosystem -->
 
