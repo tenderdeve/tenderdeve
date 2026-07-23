@@ -61,8 +61,11 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 26 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 29 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7890"><code>#7890</code></a> — fix(token-selector): show sell network panel for Rabby with Safe imported</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7889"><code>#7889</code></a> — fix(order-progress): show cancelling screen from unfillable step</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7888"><code>#7888</code></a> — fix(order-progress): match countdown to reduced solve deadlines</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7805"><code>#7805</code></a> — fix(trade): remove 'total fee' row from swap form</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7804"><code>#7804</code></a> — fix(limit-twap): disable confirm when balance is insufficient</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7803"><code>#7803</code></a> — feat(bridge): show approximate bridging time while order is pending</li>
