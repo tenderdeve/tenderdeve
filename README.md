@@ -61,8 +61,10 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 29 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 31 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7902"><code>#7902</code></a> — feat(limit-orders): support approval bundling for EIP-7702 accounts</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7901"><code>#7901</code></a> — fix(order-progress): preserve solver ranking when deduplicating competition entries</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7890"><code>#7890</code></a> — fix(token-selector): show sell network panel for Rabby with Safe imported</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7889"><code>#7889</code></a> — fix(order-progress): show cancelling screen from unfillable step</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7888"><code>#7888</code></a> — fix(order-progress): match countdown to reduced solve deadlines</li>
