@@ -61,8 +61,11 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 31 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 34 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7907"><code>#7907</code></a> — chore(typescript): adopt TypeScript 7.0 (tsgo) for cowswap-frontend typecheck</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7906"><code>#7906</code></a> — fix(affiliate): show 'code linked' notification on partial fills</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7905"><code>#7905</code></a> — fix(ui): fix typescript errors so the lib can be typechecked</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7902"><code>#7902</code></a> — feat(limit-orders): support approval bundling for EIP-7702 accounts</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7901"><code>#7901</code></a> — fix(order-progress): preserve solver ranking when deduplicating competition entries</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7890"><code>#7890</code></a> — fix(token-selector): show sell network panel for Rabby with Safe imported</li>
@@ -100,8 +103,10 @@ From smart contract to frontend and everything in between.<br/>
 </td><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/headroomlabs-ai.png?size=40" width="20" height="20" align="top" alt="headroomlabs-ai" /> <b><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></b> &middot; 13 PRs &middot; <a href="https://github.com/headroomlabs-ai/headroom/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/headroomlabs-ai.png?size=40" width="20" height="20" align="top" alt="headroomlabs-ai" /> <b><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></b> &middot; 15 PRs &middot; <a href="https://github.com/headroomlabs-ai/headroom/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/2566"><code>#2566</code></a> — fix(doctor): flag `ollama launch claude` proxy bypass instead of misdirecting</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/2565"><code>#2565</code></a> — feat(proxy): report DeepSeek as its own provider in dashboard</li>
 <li><a href="https://github.com/headroomlabs-ai/headroom/pull/1699"><code>#1699</code></a> — feat(proxy): opt-in compression for catch-all passthrough routes</li>
 <li><a href="https://github.com/headroomlabs-ai/headroom/pull/1698"><code>#1698</code></a> — fix(rtk): link managed rtk onto PATH instead of mutating the hook</li>
 <li><a href="https://github.com/headroomlabs-ai/headroom/pull/1691"><code>#1691</code></a> — fix(memory): singleflight LocalBackend init to stop cold-start races</li>
@@ -122,8 +127,10 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/tauri-apps.png?size=40" width="20" height="20" align="top" alt="tauri-apps" /> <b><a href="https://github.com/tauri-apps/tauri">tauri-apps/tauri</a></b> &middot; 13 PRs &middot; <a href="https://github.com/tauri-apps/tauri/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/tauri-apps.png?size=40" width="20" height="20" align="top" alt="tauri-apps" /> <b><a href="https://github.com/tauri-apps/tauri">tauri-apps/tauri</a></b> &middot; 15 PRs &middot; <a href="https://github.com/tauri-apps/tauri/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15780"><code>#15780</code></a> — feat(cli): warn when Java is too new for the bundled Gradle</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15779"><code>#15779</code></a> — fix(core): carry filter through pending emit queue</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15644"><code>#15644</code></a> — feat(bundler): show bundle sizes in the finished output</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15643"><code>#15643</code></a> — chore: rename LICENSE files to use dashes instead of underscores</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15642"><code>#15642</code></a> — fix(android): re-register activity result launchers on activity recreation</li>
