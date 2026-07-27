@@ -1,7 +1,4 @@
-<p align="center">
-  <strong>Manmit Singh</strong><br/>
-  <sub>Senior Software Engineer &nbsp;·&nbsp; DeFi Protocols &nbsp;·&nbsp; Full-Stack Web3 &nbsp;·&nbsp; AI-Powered Systems</sub>
-</p>
+
 <p align="center">
 6+ years shipping production systems across EVM and Solana.<br/>
 Intent-based execution, ERC-4337 bundlers, MEV-aware pipelines, real-time trading infra, and LLM orchestration <br/>
