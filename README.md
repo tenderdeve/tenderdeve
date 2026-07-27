@@ -58,8 +58,11 @@ From smart contract to frontend and everything in between.<br/>
 <tr><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 34 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/cowprotocol.png?size=40" width="20" height="20" align="top" alt="cowprotocol" /> <b><a href="https://github.com/cowprotocol/cowswap">cowprotocol/cowswap</a></b> &middot; 37 PRs &middot; <a href="https://github.com/cowprotocol/cowswap/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7910"><code>#7910</code></a> — fix(wallet): preserve explicit URL chain across refresh on reconnect</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7909"><code>#7909</code></a> — fix(wallet): wait for late injected provider before eager reconnect on mobile</li>
+<li><a href="https://github.com/cowprotocol/cowswap/pull/7908"><code>#7908</code></a> — fix(hooks): prevent placing an order with stale appData after adding a hook</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7907"><code>#7907</code></a> — chore(typescript): adopt TypeScript 7.0 (tsgo) for cowswap-frontend typecheck</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7906"><code>#7906</code></a> — fix(affiliate): show 'code linked' notification on partial fills</li>
 <li><a href="https://github.com/cowprotocol/cowswap/pull/7905"><code>#7905</code></a> — fix(ui): fix typescript errors so the lib can be typechecked</li>
@@ -100,8 +103,11 @@ From smart contract to frontend and everything in between.<br/>
 </td><td valign="top" align="center" width="50%">
 
 <details>
-<summary><img src="https://github.com/headroomlabs-ai.png?size=40" width="20" height="20" align="top" alt="headroomlabs-ai" /> <b><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></b> &middot; 15 PRs &middot; <a href="https://github.com/headroomlabs-ai/headroom/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<summary><img src="https://github.com/headroomlabs-ai.png?size=40" width="20" height="20" align="top" alt="headroomlabs-ai" /> <b><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></b> &middot; 18 PRs &middot; <a href="https://github.com/headroomlabs-ai/headroom/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/2599"><code>#2599</code></a> — fix(rtk): keep a managed ~/.local/bin/rtk link for GUI hook PATHs</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/2597"><code>#2597</code></a> — fix(compression): report source-line span in CCR compression marker</li>
+<li><a href="https://github.com/headroomlabs-ai/headroom/pull/2596"><code>#2596</code></a> — fix(learn): keep traceback tail in tool-error digest preview</li>
 <li><a href="https://github.com/headroomlabs-ai/headroom/pull/2566"><code>#2566</code></a> — fix(doctor): flag `ollama launch claude` proxy bypass instead of misdirecting</li>
 <li><a href="https://github.com/headroomlabs-ai/headroom/pull/2565"><code>#2565</code></a> — feat(proxy): report DeepSeek as its own provider in dashboard</li>
 <li><a href="https://github.com/headroomlabs-ai/headroom/pull/1699"><code>#1699</code></a> — feat(proxy): opt-in compression for catch-all passthrough routes</li>
