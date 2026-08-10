@@ -138,7 +138,7 @@ From smart contract to frontend and everything in between.<br/>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15643"><code>#15643</code></a> — chore: rename LICENSE files to use dashes instead of underscores</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15642"><code>#15642</code></a> — fix(android): re-register activity result launchers on activity recreation</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15640"><code>#15640</code></a> — feat(config): allow macOS fullscreen and transparent APIs to be enabled independently</li>
-<li><a href="https://github.com/tauri-apps/tauri/pull/15630"><code>#15630</code></a> — fix(runtime-wry): query monitors on main thread from runtime handle</li>
+<li><a href="https://github.com/tauri-apps/tauri/pull/15630"><code>#15630</code></a> — fix(runtime-wry)!: query monitors on main thread from runtime handle</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15629"><code>#15629</code></a> — fix(build): copy newly added files from resource directories</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15628"><code>#15628</code></a> — fix(runtime-wry): reapply custom traffic light position on macOS</li>
 <li><a href="https://github.com/tauri-apps/tauri/pull/15620"><code>#15620</code></a> — feat(cli): support non-square source images in `tauri icon`</li>
