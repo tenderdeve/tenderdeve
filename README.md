@@ -295,14 +295,23 @@ From smart contract to frontend and everything in between.<br/>
 </td><td valign="top" align="center" width="50%">
 
 <details>
+<summary><img src="https://github.com/dharmendrasongira.png?size=40" width="20" height="20" align="top" alt="dharmendrasongira" /> <b><a href="https://github.com/dharmendrasongira/my_portfolio">dharmendrasongira/my_portfolio</a></b> &middot; 1 PR &middot; <a href="https://github.com/dharmendrasongira/my_portfolio/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
+<ul>
+<li><a href="https://github.com/dharmendrasongira/my_portfolio/pull/1"><code>#1</code></a> — Update portfolio content from latest resume</li>
+</ul>
+</details>
+
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
+
+<details>
 <summary><img src="https://github.com/ensdomains.png?size=40" width="20" height="20" align="top" alt="ensdomains" /> <b><a href="https://github.com/ensdomains/ens-app-v3">ensdomains/ens-app-v3</a></b> &middot; 1 PR &middot; <a href="https://github.com/ensdomains/ens-app-v3/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
 <ul>
 <li><a href="https://github.com/ensdomains/ens-app-v3/pull/1125"><code>#1125</code></a> — fix: use calendar-aware year calculation in renew modal to prevent infinite loop</li>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ethereum.png?size=40" width="20" height="20" align="top" alt="ethereum" /> <b><a href="https://github.com/ethereum/go-ethereum">ethereum/go-ethereum</a></b> &middot; 1 PR &middot; <a href="https://github.com/ethereum/go-ethereum/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -311,7 +320,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/firecrawl.png?size=40" width="20" height="20" align="top" alt="firecrawl" /> <b><a href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a></b> &middot; 1 PR &middot; <a href="https://github.com/firecrawl/firecrawl/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -320,8 +330,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/langchain-ai.png?size=40" width="20" height="20" align="top" alt="langchain-ai" /> <b><a href="https://github.com/langchain-ai/langchainjs">langchain-ai/langchainjs</a></b> &middot; 1 PR &middot; <a href="https://github.com/langchain-ai/langchainjs/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -330,7 +339,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/otter-sec.png?size=40" width="20" height="20" align="top" alt="otter-sec" /> <b><a href="https://github.com/otter-sec/anchor">otter-sec/anchor</a></b> &middot; 1 PR &middot; <a href="https://github.com/otter-sec/anchor/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -339,8 +349,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/ponder-sh.png?size=40" width="20" height="20" align="top" alt="ponder-sh" /> <b><a href="https://github.com/ponder-sh/ponder">ponder-sh/ponder</a></b> &middot; 1 PR &middot; <a href="https://github.com/ponder-sh/ponder/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -349,7 +358,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/rainbow-me.png?size=40" width="20" height="20" align="top" alt="rainbow-me" /> <b><a href="https://github.com/rainbow-me/rainbowkit">rainbow-me/rainbowkit</a></b> &middot; 1 PR &middot; <a href="https://github.com/rainbow-me/rainbowkit/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -358,8 +368,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
-<tr><td valign="top" align="center" width="50%">
+</td><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/remix-project-org.png?size=40" width="20" height="20" align="top" alt="remix-project-org" /> <b><a href="https://github.com/remix-project-org/remix-project">remix-project-org/remix-project</a></b> &middot; 1 PR &middot; <a href="https://github.com/remix-project-org/remix-project/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -368,7 +377,8 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td><td valign="top" align="center" width="50%">
+</td></tr>
+<tr><td valign="top" align="center" width="50%">
 
 <details>
 <summary><img src="https://github.com/tauri-apps.png?size=40" width="20" height="20" align="top" alt="tauri-apps" /> <b><a href="https://github.com/tauri-apps/tao">tauri-apps/tao</a></b> &middot; 1 PR &middot; <a href="https://github.com/tauri-apps/tao/pulls?q=author%3Atenderdeve+is%3Apr">all →</a></summary>
@@ -377,7 +387,7 @@ From smart contract to frontend and everything in between.<br/>
 </ul>
 </details>
 
-</td></tr>
+</td><td valign="top" align="center" width="50%"></td></tr>
 </table>
 <!-- END:ecosystem -->
 
