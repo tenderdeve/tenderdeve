@@ -400,15 +400,15 @@ From smart contract to frontend and everything in between.<br/>
 <tr>
 <td valign="top" align="center" width="50%">
 
-<h3><a href="https://github.com/tenderdeve/defi-explainer">defi-explainer</a></h3>
-<sub>AI-powered DeFi portfolio explainer — plain English reports, chat, and optimization suggestions</sub><br/><br/>
+<h3><a href="https://github.com/tenderdeve/dealsignal">dealsignal</a></h3>
+<sub>Turns a SaaSquatch lead export into a ranked, explained shortlist of small businesses whose owners may be ready to sell.</sub><br/><br/>
 <sub><code>TypeScript</code>&nbsp;&nbsp;<code>JavaScript</code></sub>
 
 </td>
 <td valign="top" align="center" width="50%">
 
-<h3><a href="https://github.com/tenderdeve/crypto-will">crypto-will</a></h3>
-<sub>Dead man's switch for crypto wallets — create wills, monthly alive checks, auto-transfer on inactivity</sub><br/><br/>
+<h3><a href="https://github.com/tenderdeve/defi-explainer">defi-explainer</a></h3>
+<sub>AI-powered DeFi portfolio explainer — plain English reports, chat, and optimization suggestions</sub><br/><br/>
 <sub><code>TypeScript</code>&nbsp;&nbsp;<code>JavaScript</code></sub>
 
 </td>
@@ -416,11 +416,20 @@ From smart contract to frontend and everything in between.<br/>
 <tr>
 <td valign="top" align="center" width="50%">
 
+<h3><a href="https://github.com/tenderdeve/crypto-will">crypto-will</a></h3>
+<sub>Dead man's switch for crypto wallets — create wills, monthly alive checks, auto-transfer on inactivity</sub><br/><br/>
+<sub><code>TypeScript</code>&nbsp;&nbsp;<code>JavaScript</code></sub>
+
+</td>
+<td valign="top" align="center" width="50%">
+
 <h3><a href="https://github.com/tenderdeve/defi-dashboard">defi-dashboard</a></h3>
 <sub>Real-time DeFi portfolio dashboard — token prices, LP positions, P&L tracking — Next.js + wagmi + TailwindCSS</sub><br/><br/>
 <sub><code>TypeScript</code>&nbsp;&nbsp;<code>JavaScript</code></sub>
 
 </td>
+</tr>
+<tr>
 <td valign="top" align="center" width="50%">
 
 <h3><a href="https://github.com/tenderdeve/wallet-profiler">wallet-profiler</a></h3>
@@ -428,6 +437,7 @@ From smart contract to frontend and everything in between.<br/>
 <sub><code>JavaScript</code></sub>
 
 </td>
+<td valign="top" align="center" width="50%"></td>
 </tr>
 </table>
 <!-- END:projects -->
